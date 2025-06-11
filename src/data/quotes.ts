@@ -425,5 +425,248 @@ export const quotes: Quote[] = [
     text: "That's no moon... it's a space station.",
     author: "Obi-Wan Kenobi",
     category: "bizarre"
+  },
+  // Gears of War Quotes
+  {
+    id: 71,
+    text: "Nice. Your mom's my bitch now.",
+    author: "Dominic Santiago",
+    category: "bizarre"
+  },
+  {
+    id: 72,
+    text: "What do you know about sacrifice?",
+    author: "Marcus Fenix",
+    category: "inspirational"
+  },
+  {
+    id: 73,
+    text: "We're gonna have to go through hell. You ready for that?",
+    author: "Marcus Fenix",
+    category: "inspirational"
+  },
+  {
+    id: 74,
+    text: "Brothers to the end.",
+    author: "Dominic Santiago",
+    category: "inspirational"
+  },
+  {
+    id: 75,
+    text: "For the COG! For Sera!",
+    author: "COG Soldier",
+    category: "bizarre"
+  },
+  {
+    id: 76,
+    text: "War is hell, but it beats extinction.",
+    author: "Colonel Hoffman",
+    category: "inspirational"
+  },
+  {
+    id: 77,
+    text: "Time to get back in the fight, soldier.",
+    author: "Marcus Fenix",
+    category: "inspirational"
+  },
+  {
+    id: 78,
+    text: "Grubs! Lots of grubs!",
+    author: "Augustus Cole",
+    category: "bizarre"
+  },
+  {
+    id: 79,
+    text: "The Locust Horde has emerged from the underground.",
+    author: "Chairman Prescott",
+    category: "bizarre"
+  },
+  {
+    id: 80,
+    text: "Sometimes you gotta go back to actually move forward.",
+    author: "Marcus Fenix",
+    category: "inspirational"
+  },
+  // Halo Quotes
+  {
+    id: 81,
+    text: "I need a weapon.",
+    author: "Master Chief",
+    category: "bizarre"
+  },
+  {
+    id: 82,
+    text: "Spartans never die. They're just missing in action.",
+    author: "Dr. Catherine Halsey",
+    category: "inspirational"
+  },
+  {
+    id: 83,
+    text: "Wake me when you need me.",
+    author: "Master Chief",
+    category: "bizarre"
+  },
+  {
+    id: 84,
+    text: "Were it so easy.",
+    author: "Arbiter",
+    category: "inspirational"
+  },
+  {
+    id: 85,
+    text: "Don't make a girl a promise if you know you can't keep it.",
+    author: "Cortana",
+    category: "inspirational"
+  },
+  {
+    id: 86,
+    text: "This is the way the world ends.",
+    author: "Cortana",
+    category: "bizarre"
+  },
+  {
+    id: 87,
+    text: "Thought I'd try shooting my way out. Mix things up a little.",
+    author: "Master Chief",
+    category: "bizarre"
+  },
+  {
+    id: 88,
+    text: "We need to get the hell out of here.",
+    author: "Sergeant Johnson",
+    category: "bizarre"
+  },
+  {
+    id: 89,
+    text: "For a brick, he flew pretty good!",
+    author: "Sergeant Johnson",
+    category: "bizarre"
+  },
+  {
+    id: 90,
+    text: "Spartans, what is your profession?",
+    author: "Captain Keyes",
+    category: "inspirational"
+  },
+  {
+    id: 91,
+    text: "The Great Journey waits for no one, brother. Not even you.",
+    author: "Tartarus",
+    category: "bizarre"
+  },
+  {
+    id: 92,
+    text: "Chief, you mind telling me what you're doing on that ship?",
+    author: "Lord Hood",
+    category: "bizarre"
+  },
+  {
+    id: 93,
+    text: "Sir, finishing this fight.",
+    author: "Master Chief",
+    category: "inspirational"
+  },
+  {
+    id: 94,
+    text: "I am a monument to all your sins.",
+    author: "Gravemind",
+    category: "bizarre"
+  },
+  {
+    id: 95,
+    text: "You are the child of my makers. Inheritor of all they left behind.",
+    author: "343 Guilty Spark",
+    category: "inspirational"
+  },
+  // Batman Arkham Series Quotes
+  {
+    id: 96,
+    text: "I am vengeance. I am the night. I am Batman!",
+    author: "Batman",
+    category: "inspirational"
+  },
+  {
+    id: 97,
+    text: "Why so serious?",
+    author: "The Joker",
+    category: "bizarre"
+  },
+  {
+    id: 98,
+    text: "It's not who I am underneath, but what I do that defines me.",
+    author: "Batman",
+    category: "inspirational"
+  },
+  {
+    id: 99,
+    text: "Welcome to the madhouse, Batman! I set a trap and you sprang it gloriously!",
+    author: "The Joker",
+    category: "bizarre"
+  },
+  {
+    id: 100,
+    text: "The night is darkest just before the dawn.",
+    author: "Batman",
+    category: "inspirational"
+  },
+  {
+    id: 101,
+    text: "You can't escape me! I'll chase you to the ends of the earth!",
+    author: "The Joker",
+    category: "bizarre"
+  },
+  {
+    id: 102,
+    text: "I have one rule.",
+    author: "Batman",
+    category: "inspirational"
+  },
+  {
+    id: 103,
+    text: "Madness is like gravity. All it takes is a little push.",
+    author: "The Joker",
+    category: "bizarre"
+  },
+  {
+    id: 104,
+    text: "Justice never sleeps.",
+    author: "Batman",
+    category: "inspirational"
+  },
+  {
+    id: 105,
+    text: "I can break you. I can make you beg for mercy.",
+    author: "Bane",
+    category: "bizarre"
+  },
+  {
+    id: 106,
+    text: "The world only makes sense if you force it to.",
+    author: "Batman",
+    category: "inspirational"
+  },
+  {
+    id: 107,
+    text: "You think darkness is your ally? You merely adopted the dark. I was born in it.",
+    author: "Bane",
+    category: "bizarre"
+  },
+  {
+    id: 108,
+    text: "A hero can be anyone, even a man doing something as simple as putting a coat around a young boy's shoulders.",
+    author: "Batman",
+    category: "inspirational"
+  },
+  {
+    id: 109,
+    text: "I'm not wearing hockey pads.",
+    author: "Batman",
+    category: "bizarre"
+  },
+  {
+    id: 110,
+    text: "Sometimes it's only madness that makes us what we are.",
+    author: "The Joker",
+    category: "bizarre"
   }
 ];
