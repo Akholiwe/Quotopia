@@ -668,5 +668,400 @@ export const quotes: Quote[] = [
     text: "Sometimes it's only madness that makes us what we are.",
     author: "The Joker",
     category: "bizarre"
+  },
+  // Splinter Cell Chaos Theory Quotes
+  {
+    id: 111,
+    text: "Information is power. But like all power, there are those who want to keep it for themselves.",
+    author: "Sam Fisher",
+    category: "inspirational"
+  },
+  {
+    id: 112,
+    text: "I'm a Splinter Cell. We don't exist.",
+    author: "Sam Fisher",
+    category: "bizarre"
+  },
+  {
+    id: 113,
+    text: "The truth is what I make it. I could set this whole country on fire and call it rain.",
+    author: "Douglas Shetland",
+    category: "bizarre"
+  },
+  {
+    id: 114,
+    text: "Sometimes you have to make a choice between bad and worse.",
+    author: "Sam Fisher",
+    category: "inspirational"
+  },
+  {
+    id: 115,
+    text: "I don't have time to be polite or realistic. I'm busy saving the world.",
+    author: "Sam Fisher",
+    category: "bizarre"
+  },
+  {
+    id: 116,
+    text: "The shadows are where I live. The darkness is my ally.",
+    author: "Sam Fisher",
+    category: "inspirational"
+  },
+  {
+    id: 117,
+    text: "Trust is a luxury I can't afford.",
+    author: "Sam Fisher",
+    category: "bizarre"
+  },
+  {
+    id: 118,
+    text: "Every mission is a choice between who lives and who dies.",
+    author: "Sam Fisher",
+    category: "inspirational"
+  },
+  {
+    id: 119,
+    text: "I work alone. It's safer that way.",
+    author: "Sam Fisher",
+    category: "bizarre"
+  },
+  {
+    id: 120,
+    text: "The enemy of my enemy is my friend. Until he becomes my enemy.",
+    author: "Irving Lambert",
+    category: "bizarre"
+  },
+  // WWE Wrestlers Quotes
+  {
+    id: 121,
+    text: "Never give up. Hustle, Loyalty, Respect.",
+    author: "John Cena",
+    category: "inspirational"
+  },
+  {
+    id: 122,
+    text: "Can you smell what The Rock is cooking?",
+    author: "The Rock",
+    category: "bizarre"
+  },
+  {
+    id: 123,
+    text: "To be the man, you gotta beat the man! Woooo!",
+    author: "Ric Flair",
+    category: "inspirational"
+  },
+  {
+    id: 124,
+    text: "Austin 3:16 says I just whooped your ass!",
+    author: "Stone Cold Steve Austin",
+    category: "bizarre"
+  },
+  {
+    id: 125,
+    text: "Whether you like it or don't like it, learn to love it, because it's the best there is!",
+    author: "Ric Flair",
+    category: "inspirational"
+  },
+  {
+    id: 126,
+    text: "Oh hell yeah!",
+    author: "Stone Cold Steve Austin",
+    category: "bizarre"
+  },
+  {
+    id: 127,
+    text: "Hard work pays off. Dreams come true. Bad times don't last, but bad guys do.",
+    author: "Scott Hall",
+    category: "inspirational"
+  },
+  {
+    id: 128,
+    text: "If you smell what The Rock is cooking, then you'll shut your mouth and know your role!",
+    author: "The Rock",
+    category: "bizarre"
+  },
+  {
+    id: 129,
+    text: "I'm the best there is, the best there was, and the best there ever will be.",
+    author: "Bret Hart",
+    category: "inspirational"
+  },
+  {
+    id: 130,
+    text: "Whatcha gonna do when Hulkamania runs wild on you?",
+    author: "Hulk Hogan",
+    category: "bizarre"
+  },
+  {
+    id: 131,
+    text: "Train hard, say your prayers, eat your vitamins, and be a true American.",
+    author: "Hulk Hogan",
+    category: "inspirational"
+  },
+  {
+    id: 132,
+    text: "Rest in peace!",
+    author: "The Undertaker",
+    category: "bizarre"
+  },
+  {
+    id: 133,
+    text: "Respect is earned, not given.",
+    author: "The Undertaker",
+    category: "inspirational"
+  },
+  {
+    id: 134,
+    text: "You can't see me!",
+    author: "John Cena",
+    category: "bizarre"
+  },
+  {
+    id: 135,
+    text: "Rise above hate.",
+    author: "John Cena",
+    category: "inspirational"
+  },
+  // Spec Ops: The Line Quotes
+  {
+    id: 136,
+    text: "The truth is that you're here because you wanted to feel like something you're not: a hero.",
+    author: "Konrad",
+    category: "bizarre"
+  },
+  {
+    id: 137,
+    text: "Do you feel like a hero yet?",
+    author: "Loading Screen",
+    category: "bizarre"
+  },
+  {
+    id: 138,
+    text: "None of this would have happened if you had just stopped.",
+    author: "Konrad",
+    category: "inspirational"
+  },
+  {
+    id: 139,
+    text: "You're still a good person.",
+    author: "Loading Screen",
+    category: "inspirational"
+  },
+  {
+    id: 140,
+    text: "The US military does not condone the killing of unarmed combatants. But this isn't real, so why should you care?",
+    author: "Loading Screen",
+    category: "bizarre"
+  },
+  {
+    id: 141,
+    text: "How many Americans have you killed today?",
+    author: "Loading Screen",
+    category: "bizarre"
+  },
+  {
+    id: 142,
+    text: "This is all your fault.",
+    author: "Konrad",
+    category: "bizarre"
+  },
+  {
+    id: 143,
+    text: "You came here to be something you're not: a hero.",
+    author: "Konrad",
+    category: "inspirational"
+  },
+  {
+    id: 144,
+    text: "Welcome to Dubai.",
+    author: "Martin Walker",
+    category: "bizarre"
+  },
+  {
+    id: 145,
+    text: "It takes a strong man to deny what's right in front of him.",
+    author: "Konrad",
+    category: "inspirational"
+  },
+  // Resident Evil Franchise Quotes
+  {
+    id: 146,
+    text: "You want S.T.A.R.S.? I'll give you S.T.A.R.S.!",
+    author: "Jill Valentine",
+    category: "bizarre"
+  },
+  {
+    id: 147,
+    text: "A man's worth isn't measured by what he owns, but by what he's willing to sacrifice.",
+    author: "Leon S. Kennedy",
+    category: "inspirational"
+  },
+  {
+    id: 148,
+    text: "The master of unlocking!",
+    author: "Barry Burton",
+    category: "bizarre"
+  },
+  {
+    id: 149,
+    text: "I have this. Don't worry.",
+    author: "Leon S. Kennedy",
+    category: "inspirational"
+  },
+  {
+    id: 150,
+    text: "You were almost a Jill sandwich!",
+    author: "Barry Burton",
+    category: "bizarre"
+  },
+  {
+    id: 151,
+    text: "Complete. Global. Saturation.",
+    author: "Albert Wesker",
+    category: "bizarre"
+  },
+  {
+    id: 152,
+    text: "I'm a survivor. That's what I do.",
+    author: "Claire Redfield",
+    category: "inspirational"
+  },
+  {
+    id: 153,
+    text: "Seven minutes. Seven minutes is all I can spare to play with you.",
+    author: "Albert Wesker",
+    category: "bizarre"
+  },
+  {
+    id: 154,
+    text: "Hope never dies.",
+    author: "Chris Redfield",
+    category: "inspirational"
+  },
+  {
+    id: 155,
+    text: "I'll take the girl. You can have the boy.",
+    author: "Ada Wong",
+    category: "bizarre"
+  },
+  {
+    id: 156,
+    text: "The right man in the wrong place can make all the difference in the world.",
+    author: "Leon S. Kennedy",
+    category: "inspirational"
+  },
+  {
+    id: 157,
+    text: "What is it with you and women? Do you always have to play the hero?",
+    author: "Ada Wong",
+    category: "bizarre"
+  },
+  {
+    id: 158,
+    text: "Everyone's counting on us. We can't let them down.",
+    author: "Chris Redfield",
+    category: "inspirational"
+  },
+  {
+    id: 159,
+    text: "No thanks, bro!",
+    author: "Chris Redfield",
+    category: "bizarre"
+  },
+  {
+    id: 160,
+    text: "Survival is a choice. Choose to live.",
+    author: "Jill Valentine",
+    category: "inspirational"
+  },
+  // Shield/Captain America Steve Rogers Quotes
+  {
+    id: 161,
+    text: "I can do this all day.",
+    author: "Steve Rogers",
+    category: "inspirational"
+  },
+  {
+    id: 162,
+    text: "I'm just a kid from Brooklyn.",
+    author: "Steve Rogers",
+    category: "bizarre"
+  },
+  {
+    id: 163,
+    text: "The price of freedom is high. It always has been. But it's a price I'm willing to pay.",
+    author: "Steve Rogers",
+    category: "inspirational"
+  },
+  {
+    id: 164,
+    text: "I don't like bullies. I don't care where they're from.",
+    author: "Steve Rogers",
+    category: "inspirational"
+  },
+  {
+    id: 165,
+    text: "That's America's ass.",
+    author: "Tony Stark (about Steve Rogers)",
+    category: "bizarre"
+  },
+  {
+    id: 166,
+    text: "Before we get started, does anyone want to get out?",
+    author: "Steve Rogers",
+    category: "bizarre"
+  },
+  {
+    id: 167,
+    text: "I'm with you 'til the end of the line.",
+    author: "Steve Rogers",
+    category: "inspirational"
+  },
+  {
+    id: 168,
+    text: "Language!",
+    author: "Steve Rogers",
+    category: "bizarre"
+  },
+  {
+    id: 169,
+    text: "The strong man who has known power all his life may lose respect for that power. But a weak man knows the value of strength.",
+    author: "Dr. Abraham Erskine (to Steve Rogers)",
+    category: "inspirational"
+  },
+  {
+    id: 170,
+    text: "I could do this all day.",
+    author: "Steve Rogers",
+    category: "inspirational"
+  },
+  {
+    id: 171,
+    text: "Sometimes the best we can do is to start over.",
+    author: "Steve Rogers",
+    category: "inspirational"
+  },
+  {
+    id: 172,
+    text: "Hail Hydra.",
+    author: "Steve Rogers (undercover)",
+    category: "bizarre"
+  },
+  {
+    id: 173,
+    text: "I'm not looking for forgiveness. And I'm way past asking for permission.",
+    author: "Steve Rogers",
+    category: "inspirational"
+  },
+  {
+    id: 174,
+    text: "On your left.",
+    author: "Steve Rogers",
+    category: "bizarre"
+  },
+  {
+    id: 175,
+    text: "Compromise where you can. Where you can't, don't.",
+    author: "Steve Rogers",
+    category: "inspirational"
   }
 ];
