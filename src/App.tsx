@@ -1,7 +1,6 @@
 import React from 'react';
 import { Header } from './components/Header';
 import { QuoteGrid } from './components/QuoteGrid';
-import { QuoteActions } from './components/QuoteActions';
 import { quotes } from './data/quotes';
 
 function App() {
@@ -35,9 +34,6 @@ function App() {
         <Header />
         <QuoteGrid quotes={quotes} />
       </div>
-
-      {/* Quote Actions */}
-      <QuoteActions quotes={quotes} />
 
       {/* Footer */}
       <footer className="relative z-10 text-center py-12 text-white/50">
