@@ -1,5 +1,5 @@
-import React from 'react';
-import { Quote as QuoteIcon } from 'lucide-react';
+import React, { useState } from 'react';
+import { Quote as QuoteIcon, Copy, Download, Check } from 'lucide-react';
 import { Quote } from '../types/Quote';
 
 interface QuoteCardProps {
@@ -13,6 +13,8 @@ export const QuoteCard: React.FC<QuoteCardProps> = ({
   size = 'medium',
   delay = 0 
 }) => {
+  const [copied, setCopied] = useState(false);
+
   const sizeClasses = {
     small: 'p-6 max-w-sm',
     medium: 'p-8 max-w-md',
@@ -36,6 +38,42 @@ export const QuoteCard: React.FC<QuoteCardProps> = ({
 
   const colors = categoryColors[quote.category];
 
+  const handleCopy = async (e: React.MouseEvent) => {
+    e.stopPropagation();
+    const quoteText = `"${quote.text}" - ${quote.author}`;
+    
+    try {
+      await navigator.clipboard.writeText(quoteText);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      // Fallback for older browsers
+      const textArea = document.createElement('textarea');
+      textArea.value = quoteText;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textArea);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
+  };
+
+  const handleDownload = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    const quoteText = `"${quote.text}"\n\n— ${quote.author}\n\nCategory: ${quote.category.charAt(0).toUpperCase() + quote.category.slice(1)}\n\nFrom Quotopia - Where inspiration meets the wonderfully bizarre`;
+    
+    const blob = new Blob([quoteText], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `quote-${quote.id}-${quote.author.replace(/\s+/g, '-').toLowerCase()}.txt`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
+
   return (
     <div
       className={`
@@ -54,12 +92,55 @@ export const QuoteCard: React.FC<QuoteCardProps> = ({
         animate-float
         hover:backdrop-blur-md
         group
+        relative
       `}
       style={{
         animationDelay: `${delay}ms`,
         animationDuration: `${3000 + Math.random() * 2000}ms`
       }}
     >
+      {/* Action Buttons */}
+      <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <button
+          onClick={handleCopy}
+          className={`
+            p-2 rounded-full 
+            ${colors.bg} 
+            ${colors.border} 
+            border 
+            backdrop-blur-sm
+            hover:scale-110 
+            transition-all 
+            duration-200
+            ${copied ? 'bg-green-500/20 border-green-400/30' : ''}
+          `}
+          title="Copy quote"
+        >
+          {copied ? (
+            <Check className="w-4 h-4 text-green-300" />
+          ) : (
+            <Copy className={`w-4 h-4 ${colors.accent}`} />
+          )}
+        </button>
+        
+        <button
+          onClick={handleDownload}
+          className={`
+            p-2 rounded-full 
+            ${colors.bg} 
+            ${colors.border} 
+            border 
+            backdrop-blur-sm
+            hover:scale-110 
+            transition-all 
+            duration-200
+          `}
+          title="Download quote"
+        >
+          <Download className={`w-4 h-4 ${colors.accent}`} />
+        </button>
+      </div>
+
       <div className="relative">
         <QuoteIcon 
           className={`absolute -top-2 -left-2 w-8 h-8 ${colors.accent} opacity-60 group-hover:opacity-100 transition-opacity duration-300`}
