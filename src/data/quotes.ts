@@ -1063,5 +1063,399 @@ export const quotes: Quote[] = [
     text: "Compromise where you can. Where you can't, don't.",
     author: "Steve Rogers",
     category: "inspirational"
+  },
+  // Grand Admiral Thrawn Quotes
+  {
+    id: 176,
+    text: "To defeat an enemy, you must know them. Not simply their battle tactics, but their history, philosophy, art.",
+    author: "Grand Admiral Thrawn",
+    category: "inspirational"
+  },
+  {
+    id: 177,
+    text: "I study the art of war. Work to perfect it.",
+    author: "Grand Admiral Thrawn",
+    category: "inspirational"
+  },
+  {
+    id: 178,
+    text: "The key to understanding a species is to understand their art.",
+    author: "Grand Admiral Thrawn",
+    category: "inspirational"
+  },
+  {
+    id: 179,
+    text: "Do you know the difference between an error and a mistake? Anyone can make an error. But that error doesn't become a mistake until you refuse to correct it.",
+    author: "Grand Admiral Thrawn",
+    category: "inspirational"
+  },
+  {
+    id: 180,
+    text: "I will start my operations here, and pull the rebels apart piece by piece.",
+    author: "Grand Admiral Thrawn",
+    category: "bizarre"
+  },
+  {
+    id: 181,
+    text: "War is not about who is right. It is about who is left.",
+    author: "Grand Admiral Thrawn",
+    category: "inspirational"
+  },
+  {
+    id: 182,
+    text: "The Empire's time has come. You may continue to fight, but you will only delay the inevitable.",
+    author: "Grand Admiral Thrawn",
+    category: "bizarre"
+  },
+  {
+    id: 183,
+    text: "Perhaps I was wrong. It wouldn't be the first time.",
+    author: "Grand Admiral Thrawn",
+    category: "inspirational"
+  },
+  {
+    id: 184,
+    text: "I have no qualms about accepting a useful idea merely because it wasn't my own.",
+    author: "Grand Admiral Thrawn",
+    category: "inspirational"
+  },
+  {
+    id: 185,
+    text: "There are things in the universe that are simply and purely evil. A warrior does not seek to understand them, or to compromise with them. He seeks only to obliterate them.",
+    author: "Grand Admiral Thrawn",
+    category: "inspirational"
+  },
+  // More Star Wars Characters
+  {
+    id: 186,
+    text: "Power! Unlimited power!",
+    author: "Emperor Palpatine",
+    category: "bizarre"
+  },
+  {
+    id: 187,
+    text: "Good is a point of view, Anakin.",
+    author: "Emperor Palpatine",
+    category: "bizarre"
+  },
+  {
+    id: 188,
+    text: "I don't like sand. It's coarse and rough and irritating and it gets everywhere.",
+    author: "Anakin Skywalker",
+    category: "bizarre"
+  },
+  {
+    id: 189,
+    text: "From my point of view, the Jedi are evil!",
+    author: "Anakin Skywalker",
+    category: "bizarre"
+  },
+  {
+    id: 190,
+    text: "You underestimate my power!",
+    author: "Anakin Skywalker",
+    category: "bizarre"
+  },
+  {
+    id: 191,
+    text: "I have brought peace, freedom, justice, and security to my new empire.",
+    author: "Anakin Skywalker",
+    category: "bizarre"
+  },
+  {
+    id: 192,
+    text: "The ability to destroy a planet is insignificant next to the power of the Force.",
+    author: "Darth Vader",
+    category: "inspirational"
+  },
+  {
+    id: 193,
+    text: "You don't know the power of the dark side.",
+    author: "Darth Vader",
+    category: "bizarre"
+  },
+  {
+    id: 194,
+    text: "Search your feelings. You know it to be true.",
+    author: "Darth Vader",
+    category: "inspirational"
+  },
+  {
+    id: 195,
+    text: "It is your destiny. Join me, and together we can rule the galaxy as father and son.",
+    author: "Darth Vader",
+    category: "bizarre"
+  },
+  // Disney Animated Movies
+  {
+    id: 196,
+    text: "The past can hurt. But the way I see it, you can either run from it or learn from it.",
+    author: "Rafiki (The Lion King)",
+    category: "inspirational"
+  },
+  {
+    id: 197,
+    text: "Hakuna Matata! What a wonderful phrase!",
+    author: "Timon & Pumbaa (The Lion King)",
+    category: "bizarre"
+  },
+  {
+    id: 198,
+    text: "Remember who you are.",
+    author: "Mufasa (The Lion King)",
+    category: "inspirational"
+  },
+  {
+    id: 199,
+    text: "Oh yes, the past can hurt. But you can either run from it, or learn from it.",
+    author: "Rafiki (The Lion King)",
+    category: "inspirational"
+  },
+  {
+    id: 200,
+    text: "I'm surrounded by idiots.",
+    author: "Scar (The Lion King)",
+    category: "bizarre"
+  },
+  {
+    id: 201,
+    text: "Just keep swimming, just keep swimming!",
+    author: "Dory (Finding Nemo)",
+    category: "inspirational"
+  },
+  {
+    id: 202,
+    text: "P. Sherman, 42 Wallaby Way, Sydney.",
+    author: "Dory (Finding Nemo)",
+    category: "bizarre"
+  },
+  {
+    id: 203,
+    text: "When life gets you down, you know what you gotta do? Just keep swimming.",
+    author: "Dory (Finding Nemo)",
+    category: "inspirational"
+  },
+  {
+    id: 204,
+    text: "The cold never bothered me anyway.",
+    author: "Elsa (Frozen)",
+    category: "inspirational"
+  },
+  {
+    id: 205,
+    text: "Let it go, let it go! Can't hold it back anymore!",
+    author: "Elsa (Frozen)",
+    category: "bizarre"
+  },
+  {
+    id: 206,
+    text: "Some people are worth melting for.",
+    author: "Olaf (Frozen)",
+    category: "inspirational"
+  },
+  {
+    id: 207,
+    text: "Love is putting someone else's needs before yours.",
+    author: "Olaf (Frozen)",
+    category: "inspirational"
+  },
+  {
+    id: 208,
+    text: "Do you want to build a snowman?",
+    author: "Anna (Frozen)",
+    category: "bizarre"
+  },
+  {
+    id: 209,
+    text: "Adventure is out there!",
+    author: "Ellie (Up)",
+    category: "inspirational"
+  },
+  {
+    id: 210,
+    text: "Thanks for the adventure. Now go have a new one!",
+    author: "Ellie (Up)",
+    category: "inspirational"
+  },
+  {
+    id: 211,
+    text: "Squirrel!",
+    author: "Dug (Up)",
+    category: "bizarre"
+  },
+  {
+    id: 212,
+    text: "I do not like the cone of shame.",
+    author: "Dug (Up)",
+    category: "bizarre"
+  },
+  {
+    id: 213,
+    text: "To infinity and beyond!",
+    author: "Buzz Lightyear (Toy Story)",
+    category: "inspirational"
+  },
+  {
+    id: 214,
+    text: "You've got a friend in me.",
+    author: "Woody (Toy Story)",
+    category: "inspirational"
+  },
+  {
+    id: 215,
+    text: "I am Mrs. Nesbitt!",
+    author: "Buzz Lightyear (Toy Story)",
+    category: "bizarre"
+  },
+  {
+    id: 216,
+    text: "There's a snake in my boot!",
+    author: "Woody (Toy Story)",
+    category: "bizarre"
+  },
+  {
+    id: 217,
+    text: "The flower that blooms in adversity is the most rare and beautiful of all.",
+    author: "The Emperor (Mulan)",
+    category: "inspirational"
+  },
+  {
+    id: 218,
+    text: "Dishonor on you! Dishonor on your cow!",
+    author: "Mushu (Mulan)",
+    category: "bizarre"
+  },
+  {
+    id: 219,
+    text: "A whole new world, a dazzling place I never knew!",
+    author: "Aladdin",
+    category: "inspirational"
+  },
+  {
+    id: 220,
+    text: "Ten thousand years will give you such a crick in the neck!",
+    author: "Genie (Aladdin)",
+    category: "bizarre"
+  },
+  // DreamWorks Animated Movies
+  {
+    id: 221,
+    text: "Better out than in, I always say!",
+    author: "Shrek",
+    category: "bizarre"
+  },
+  {
+    id: 222,
+    text: "Ogres are like onions. They have layers.",
+    author: "Shrek",
+    category: "inspirational"
+  },
+  {
+    id: 223,
+    text: "I like that boulder. That is a nice boulder.",
+    author: "Donkey (Shrek)",
+    category: "bizarre"
+  },
+  {
+    id: 224,
+    text: "What are you doing in my swamp?!",
+    author: "Shrek",
+    category: "bizarre"
+  },
+  {
+    id: 225,
+    text: "Sometimes you have to believe in yourself when no one else will.",
+    author: "Hiccup (How to Train Your Dragon)",
+    category: "inspirational"
+  },
+  {
+    id: 226,
+    text: "With love comes loss. It's part of the deal. Sometimes it hurts, but in the end, it's all worth it.",
+    author: "Stoick (How to Train Your Dragon)",
+    category: "inspirational"
+  },
+  {
+    id: 227,
+    text: "This is Berk. It's twelve days north of Hopeless and a few degrees south of Freezing to Death.",
+    author: "Hiccup (How to Train Your Dragon)",
+    category: "bizarre"
+  },
+  {
+    id: 228,
+    text: "I wouldn't kill him because he looked as frightened as I was. I looked at him and I saw myself.",
+    author: "Hiccup (How to Train Your Dragon)",
+    category: "inspirational"
+  },
+  {
+    id: 229,
+    text: "We're gonna need a bigger boat... I mean, a bigger cage.",
+    author: "Marty (Madagascar)",
+    category: "bizarre"
+  },
+  {
+    id: 230,
+    text: "I like to move it, move it!",
+    author: "King Julien (Madagascar)",
+    category: "bizarre"
+  },
+  {
+    id: 231,
+    text: "Smile and wave, boys. Smile and wave.",
+    author: "Skipper (Madagascar)",
+    category: "bizarre"
+  },
+  {
+    id: 232,
+    text: "You didn't see anything! *wink*",
+    author: "Skipper (Madagascar)",
+    category: "bizarre"
+  },
+  {
+    id: 233,
+    text: "Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be.",
+    author: "Soothsayer (Kung Fu Panda 2)",
+    category: "inspirational"
+  },
+  {
+    id: 234,
+    text: "You must let go of the illusion of control.",
+    author: "Master Oogway (Kung Fu Panda)",
+    category: "inspirational"
+  },
+  {
+    id: 235,
+    text: "My noodle dream is dead!",
+    author: "Po (Kung Fu Panda)",
+    category: "bizarre"
+  },
+  {
+    id: 236,
+    text: "There are no accidents.",
+    author: "Master Oogway (Kung Fu Panda)",
+    category: "inspirational"
+  },
+  {
+    id: 237,
+    text: "I'm not a big fat panda. I'm THE big fat panda!",
+    author: "Po (Kung Fu Panda)",
+    category: "bizarre"
+  },
+  {
+    id: 238,
+    text: "Legend tells of a legendary warrior whose kung fu skills were the stuff of legend.",
+    author: "Narrator (Kung Fu Panda)",
+    category: "bizarre"
+  },
+  {
+    id: 239,
+    text: "You are more than what you have become.",
+    author: "Mufasa (The Lion King)",
+    category: "inspirational"
+  },
+  {
+    id: 240,
+    text: "Even miracles take a little time.",
+    author: "Fairy Godmother (Cinderella)",
+    category: "inspirational"
   }
 ];
