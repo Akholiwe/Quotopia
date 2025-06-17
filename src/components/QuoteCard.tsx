@@ -126,25 +126,27 @@ export const QuoteCard: React.FC<QuoteCardProps> = ({
         hover:backdrop-blur-md
         group
         relative
+        overflow-hidden
       `}
       style={{
         animationDelay: `${delay}ms`,
         animationDuration: `${3000 + Math.random() * 2000}ms`
       }}
     >
-      {/* Action buttons */}
-      <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      {/* Action buttons - positioned absolutely with higher z-index */}
+      <div className="absolute top-3 right-3 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
         <button
           onClick={handleDownloadImage}
           disabled={isGenerating}
           className={`
             p-2 rounded-full 
-            bg-black/20 backdrop-blur-sm 
-            border border-white/20 
+            bg-black/40 backdrop-blur-md 
+            border border-white/30 
             ${colors.accent} hover:text-white
             transition-all duration-200
-            hover:bg-black/30
+            hover:bg-black/60
             disabled:opacity-50 disabled:cursor-not-allowed
+            shadow-lg
           `}
           title="Download as PNG"
         >
@@ -156,12 +158,13 @@ export const QuoteCard: React.FC<QuoteCardProps> = ({
           disabled={isGenerating}
           className={`
             p-2 rounded-full 
-            bg-black/20 backdrop-blur-sm 
-            border border-white/20 
+            bg-black/40 backdrop-blur-md 
+            border border-white/30 
             ${getCopyButtonColor()}
             transition-all duration-200
-            hover:bg-black/30
+            hover:bg-black/60
             disabled:opacity-50 disabled:cursor-not-allowed
+            shadow-lg
           `}
           title={
             copyStatus === 'success' 
@@ -175,7 +178,8 @@ export const QuoteCard: React.FC<QuoteCardProps> = ({
         </button>
       </div>
 
-      <div className="relative">
+      {/* Content container with proper padding to avoid button overlap */}
+      <div className="relative pr-20 z-10">
         <QuoteIcon 
           className={`absolute -top-2 -left-2 w-8 h-8 ${colors.accent} opacity-60 group-hover:opacity-100 transition-opacity duration-300`}
         />
