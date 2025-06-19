@@ -18,9 +18,9 @@ export const QuoteCard: React.FC<QuoteCardProps> = ({
   const [copyStatus, setCopyStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
   const sizeClasses = {
-    small: 'p-6 max-w-sm',
-    medium: 'p-8 max-w-md',
-    large: 'p-10 max-w-lg'
+    small: 'p-6',
+    medium: 'p-6',
+    large: 'p-8'
   };
 
   const categoryColors = {
@@ -74,7 +74,6 @@ export const QuoteCard: React.FC<QuoteCardProps> = ({
       const success = await copyToClipboard();
       setCopyStatus(success ? 'success' : 'error');
       
-      // Reset status after 2 seconds
       setTimeout(() => setCopyStatus('idle'), 2000);
     } catch (error) {
       console.error('Failed to copy image:', error);
@@ -127,13 +126,17 @@ export const QuoteCard: React.FC<QuoteCardProps> = ({
         group
         relative
         overflow-hidden
+        h-fit
+        min-h-[280px]
+        flex
+        flex-col
       `}
       style={{
         animationDelay: `${delay}ms`,
         animationDuration: `${3000 + Math.random() * 2000}ms`
       }}
     >
-      {/* Action buttons - positioned absolutely with higher z-index */}
+      {/* Action buttons */}
       <div className="absolute top-3 right-3 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
         <button
           onClick={handleDownloadImage}
@@ -178,23 +181,29 @@ export const QuoteCard: React.FC<QuoteCardProps> = ({
         </button>
       </div>
 
-      {/* Content container with proper padding to avoid button overlap */}
-      <div className="relative pr-20 z-10">
+      {/* Content */}
+      <div className="flex-1 flex flex-col">
         <QuoteIcon 
-          className={`absolute -top-2 -left-2 w-8 h-8 ${colors.accent} opacity-60 group-hover:opacity-100 transition-opacity duration-300`}
+          className={`w-6 h-6 ${colors.accent} opacity-60 group-hover:opacity-100 transition-opacity duration-300 mb-4`}
         />
         
-        <blockquote className={`text-lg leading-relaxed ${colors.text} mb-6 pl-6`}>
+        <blockquote className={`text-base leading-relaxed ${colors.text} mb-4 flex-1`}>
           "{quote.text}"
         </blockquote>
         
-        <div className="flex justify-between items-center">
-          <cite className={`text-sm font-medium ${colors.accent} not-italic`}>
+        <div className="mt-auto space-y-3">
+          <cite className={`text-sm font-medium ${colors.accent} not-italic block`}>
             — {quote.author}
           </cite>
           
+          {quote.character && (
+            <div className={`text-xs ${colors.text} opacity-75`}>
+              {quote.character}
+            </div>
+          )}
+          
           <span className={`
-            px-3 py-1 
+            inline-block px-3 py-1 
             text-xs 
             rounded-full 
             ${colors.bg} 

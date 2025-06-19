@@ -7,19 +7,16 @@ interface QuoteGridProps {
 }
 
 export const QuoteGrid: React.FC<QuoteGridProps> = ({ quotes }) => {
-  const sizes: Array<'small' | 'medium' | 'large'> = ['small', 'medium', 'large'];
-  
   return (
     <div className="container mx-auto px-6 py-12">
-      <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-8 space-y-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {quotes.map((quote, index) => (
-          <div key={quote.id} className="break-inside-avoid">
-            <QuoteCard
-              quote={quote}
-              size={sizes[index % 3]}
-              delay={index * 200}
-            />
-          </div>
+          <QuoteCard
+            key={quote.id}
+            quote={quote}
+            size="medium"
+            delay={index * 100}
+          />
         ))}
       </div>
     </div>
