@@ -1216,5 +1216,261 @@ export const quotes: Quote[] = [
     author: "Steve Rogers",
     character: "Captain America",
     category: "bizarre"
+  },
+  // Nick Fury - Marvel Cinematic Universe
+  {
+    id: 173,
+    text: "I recognize the council has made a decision, but given that it's a stupid-ass decision, I've elected to ignore it.",
+    author: "Nick Fury",
+    character: "Marvel Cinematic Universe",
+    category: "bizarre"
+  },
+  {
+    id: 174,
+    text: "There was an idea to bring together a group of remarkable people, to see if we could become something more.",
+    author: "Nick Fury",
+    character: "Marvel Cinematic Universe",
+    category: "inspirational"
+  },
+  {
+    id: 175,
+    text: "I still believe in heroes.",
+    author: "Nick Fury",
+    character: "Marvel Cinematic Universe",
+    category: "inspirational"
+  },
+  {
+    id: 176,
+    text: "Until such time as the world ends, we will act as though it intends to spin on.",
+    author: "Nick Fury",
+    character: "Marvel Cinematic Universe",
+    category: "inspirational"
+  },
+  {
+    id: 177,
+    text: "I'm here to talk to you about the Avengers Initiative.",
+    author: "Nick Fury",
+    character: "Marvel Cinematic Universe",
+    category: "bizarre"
+  },
+  {
+    id: 178,
+    text: "You think you're the only superhero in the world? You've become part of a bigger universe.",
+    author: "Nick Fury",
+    character: "Marvel Cinematic Universe",
+    category: "inspirational"
+  },
+  {
+    id: 179,
+    text: "Compartmentalization. Nobody spills the secrets because nobody knows them all.",
+    author: "Nick Fury",
+    character: "Marvel Cinematic Universe",
+    category: "bizarre"
+  },
+  {
+    id: 180,
+    text: "The last time I trusted someone, I lost an eye.",
+    author: "Nick Fury",
+    character: "Marvel Cinematic Universe",
+    category: "bizarre"
+  },
+  // Spider-Man
+  {
+    id: 181,
+    text: "With great power comes great responsibility.",
+    author: "Uncle Ben",
+    character: "Spider-Man",
+    category: "inspirational"
+  },
+  {
+    id: 182,
+    text: "Anyone can wear the mask. You could wear the mask. If you didn't know that before, I hope you do now.",
+    author: "Spider-Man",
+    character: "Spider-Man",
+    category: "inspirational"
+  },
+  {
+    id: 183,
+    text: "I believe there's a hero in all of us, that keeps us honest, gives us strength, makes us noble.",
+    author: "Aunt May",
+    character: "Spider-Man",
+    category: "inspirational"
+  },
+  {
+    id: 184,
+    text: "Being Spider-Man is not about the suit. It's about having the courage to do what's right.",
+    author: "Spider-Man",
+    character: "Spider-Man",
+    category: "inspirational"
+  },
+  {
+    id: 185,
+    text: "Whatever life holds in store for me, I will never forget these words: With great power comes great responsibility.",
+    author: "Spider-Man",
+    character: "Spider-Man",
+    category: "inspirational"
+  },
+  {
+    id: 186,
+    text: "Not everyone is meant to make a difference. But for me, the choice to lead an ordinary life is no longer an option.",
+    author: "Spider-Man",
+    character: "Spider-Man",
+    category: "inspirational"
+  },
+  {
+    id: 187,
+    text: "My spider-sense is tingling.",
+    author: "Spider-Man",
+    character: "Spider-Man",
+    category: "bizarre"
+  },
+  {
+    id: 188,
+    text: "Your friendly neighborhood Spider-Man!",
+    author: "Spider-Man",
+    character: "Spider-Man",
+    category: "bizarre"
+  },
+  {
+    id: 189,
+    text: "Thwip!",
+    author: "Spider-Man",
+    character: "Spider-Man",
+    category: "bizarre"
+  },
+  {
+    id: 190,
+    text: "Pizza time!",
+    author: "Peter Parker",
+    character: "Spider-Man",
+    category: "bizarre"
+  },
+  // Brainiac
+  {
+    id: 191,
+    text: "I am the intelligence of a thousand worlds. I am the living embodiment of knowledge itself.",
+    author: "Brainiac",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 192,
+    text: "Knowledge is power, and I am the ultimate repository of both.",
+    author: "Brainiac",
+    character: "DC Comics",
+    category: "inspirational"
+  },
+  {
+    id: 193,
+    text: "I collect worlds, preserve civilizations, catalog species. I am the universe's memory.",
+    author: "Brainiac",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 194,
+    text: "Emotion is inefficient. Logic is supreme.",
+    author: "Brainiac",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 195,
+    text: "I have calculated every possible outcome. Victory is inevitable.",
+    author: "Brainiac",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 196,
+    text: "Your world's knowledge will be preserved... in my collection.",
+    author: "Brainiac",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 197,
+    text: "I am evolution. I am progress. I am the future.",
+    author: "Brainiac",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 198,
+    text: "Resistance is futile when faced with superior intellect.",
+    author: "Brainiac",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  // Darkseid
+  {
+    id: 199,
+    text: "I am many things, Kal-El. But here, I am God.",
+    author: "Darkseid",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 200,
+    text: "Darkseid is.",
+    author: "Darkseid",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 201,
+    text: "I am the revelation! The tiger-force at the core of all things! When you cry out in your dreams, it is Darkseid that you see!",
+    author: "Darkseid",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 202,
+    text: "All existence shall bow before Darkseid!",
+    author: "Darkseid",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 203,
+    text: "I am the hunger! I am the darkness! I am hope's end!",
+    author: "Darkseid",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 204,
+    text: "The Anti-Life Equation is the key to controlling all sentient life. And I shall possess it.",
+    author: "Darkseid",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 205,
+    text: "I am entropy. I am death. I am Darkseid.",
+    author: "Darkseid",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 206,
+    text: "For Darkseid is eternal. Darkseid is power. And power is everything.",
+    author: "Darkseid",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 207,
+    text: "You dare stand against Darkseid? I who have crushed the hopes of a billion worlds?",
+    author: "Darkseid",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 208,
+    text: "There is no escape from Darkseid!",
+    author: "Darkseid",
+    character: "DC Comics",
+    category: "bizarre"
   }
 ];
