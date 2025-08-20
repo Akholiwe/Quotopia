@@ -1472,5 +1472,262 @@ export const quotes: Quote[] = [
     author: "Darkseid",
     character: "DC Comics",
     category: "bizarre"
+  },
+  // S.H.I.E.L.D.
+  {
+    id: 209,
+    text: "We are the shield that guards the world from threats it cannot comprehend.",
+    author: "Phil Coulson",
+    character: "S.H.I.E.L.D.",
+    category: "inspirational"
+  },
+  {
+    id: 210,
+    text: "Sometimes the best we can do is start over.",
+    author: "Phil Coulson",
+    character: "S.H.I.E.L.D.",
+    category: "inspirational"
+  },
+  {
+    id: 211,
+    text: "We protect people from news they aren't ready to hear.",
+    author: "Agent Hill",
+    character: "S.H.I.E.L.D.",
+    category: "inspirational"
+  },
+  {
+    id: 212,
+    text: "Level 7 access granted. Welcome to the real S.H.I.E.L.D.",
+    author: "Phil Coulson",
+    character: "S.H.I.E.L.D.",
+    category: "bizarre"
+  },
+  {
+    id: 213,
+    text: "We're not agents of nothing. We're agents of S.H.I.E.L.D.",
+    author: "Phil Coulson",
+    character: "S.H.I.E.L.D.",
+    category: "inspirational"
+  },
+  {
+    id: 214,
+    text: "A man can accomplish anything once he realizes he can be something bigger.",
+    author: "Phil Coulson",
+    character: "S.H.I.E.L.D.",
+    category: "inspirational"
+  },
+  {
+    id: 215,
+    text: "Tahiti. It's a magical place.",
+    author: "Phil Coulson",
+    character: "S.H.I.E.L.D.",
+    category: "bizarre"
+  },
+  {
+    id: 216,
+    text: "We do whatever it takes to protect innocent people.",
+    author: "Melinda May",
+    character: "S.H.I.E.L.D.",
+    category: "inspirational"
+  },
+  // Hydra
+  {
+    id: 217,
+    text: "Cut off one head, two more shall take its place.",
+    author: "Hydra Motto",
+    character: "Hydra",
+    category: "bizarre"
+  },
+  {
+    id: 218,
+    text: "Hail Hydra.",
+    author: "Hydra Agent",
+    character: "Hydra",
+    category: "bizarre"
+  },
+  {
+    id: 219,
+    text: "Order only comes through pain.",
+    author: "Red Skull",
+    character: "Hydra",
+    category: "bizarre"
+  },
+  {
+    id: 220,
+    text: "Humanity needed to surrender its freedom willingly.",
+    author: "Alexander Pierce",
+    character: "Hydra",
+    category: "bizarre"
+  },
+  {
+    id: 221,
+    text: "S.H.I.E.L.D., Hydra, it all goes away.",
+    author: "Alexander Pierce",
+    character: "Hydra",
+    category: "bizarre"
+  },
+  {
+    id: 222,
+    text: "The price of freedom is high. But it's a price I'm willing to pay. And if I'm the only one, then so be it.",
+    author: "Alexander Pierce",
+    character: "Hydra",
+    category: "bizarre"
+  },
+  {
+    id: 223,
+    text: "Hydra was founded on the belief that humanity could not be trusted with its own freedom.",
+    author: "Baron Strucker",
+    character: "Hydra",
+    category: "bizarre"
+  },
+  {
+    id: 224,
+    text: "We have always been here. We will always be here.",
+    author: "Hydra Operative",
+    character: "Hydra",
+    category: "bizarre"
+  },
+  {
+    id: 225,
+    text: "The world is not ready for the truth. But Hydra will prepare it.",
+    author: "Dr. Arnim Zola",
+    character: "Hydra",
+    category: "bizarre"
+  },
+  {
+    id: 226,
+    text: "Compliance will be rewarded.",
+    author: "Hydra Command",
+    character: "Hydra",
+    category: "bizarre"
+  },
+  // Lex Luthor
+  {
+    id: 227,
+    text: "Some people can read War and Peace and come away thinking it's a simple adventure story. Others can read the ingredients on a chewing gum wrapper and unlock the secrets of the universe.",
+    author: "Lex Luthor",
+    character: "DC Comics",
+    category: "inspirational"
+  },
+  {
+    id: 228,
+    text: "I'm not a monster. I'm just ahead of the curve.",
+    author: "Lex Luthor",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 229,
+    text: "The red cape is coming! The red cape is coming!",
+    author: "Lex Luthor",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 230,
+    text: "I have always been Lex Luthor of Metropolis. I will always be Lex Luthor of Metropolis.",
+    author: "Lex Luthor",
+    character: "DC Comics",
+    category: "inspirational"
+  },
+  {
+    id: 231,
+    text: "Superman made me do it. He made me the villain.",
+    author: "Lex Luthor",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 232,
+    text: "Do you know what the oldest lie in America is, Senator? That power can be innocent.",
+    author: "Lex Luthor",
+    character: "DC Comics",
+    category: "inspirational"
+  },
+  {
+    id: 233,
+    text: "I don't hate Superman. I hate the fact that he exists.",
+    author: "Lex Luthor",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 234,
+    text: "Gods don't have to choose. We do.",
+    author: "Lex Luthor",
+    character: "DC Comics",
+    category: "inspirational"
+  },
+  {
+    id: 235,
+    text: "If man won't kill God, the devil will do it!",
+    author: "Lex Luthor",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  {
+    id: 236,
+    text: "The greatest criminal mind of our time.",
+    author: "Lex Luthor",
+    character: "DC Comics",
+    category: "bizarre"
+  },
+  // Obadiah Stane
+  {
+    id: 237,
+    text: "Tony Stark was able to build this in a cave! With a box of scraps!",
+    author: "Obadiah Stane",
+    character: "Iron Man",
+    category: "bizarre"
+  },
+  {
+    id: 238,
+    text: "For thirty years, I've been holding you up! I built this company up from nothing!",
+    author: "Obadiah Stane",
+    character: "Iron Man",
+    category: "bizarre"
+  },
+  {
+    id: 239,
+    text: "You had a great run, Tony, but now it's time to get back to business.",
+    author: "Obadiah Stane",
+    character: "Iron Man",
+    category: "bizarre"
+  },
+  {
+    id: 240,
+    text: "I never had a taste for this sort of thing, but I must admit, I'm starting to get a taste for it.",
+    author: "Obadiah Stane",
+    character: "Iron Man",
+    category: "bizarre"
+  },
+  {
+    id: 241,
+    text: "Your father, he helped give us the atomic bomb. Now what kind of world would it be today if he was as selfish as you?",
+    author: "Obadiah Stane",
+    character: "Iron Man",
+    category: "bizarre"
+  },
+  {
+    id: 242,
+    text: "How ironic, Tony! Trying to rid the world of weapons, you gave it its best one ever!",
+    author: "Obadiah Stane",
+    character: "Iron Man",
+    category: "bizarre"
+  },
+  {
+    id: 243,
+    text: "The suit and I are one. When I put it on, I become something more.",
+    author: "Obadiah Stane",
+    character: "Iron Man",
+    category: "inspirational"
+  },
+  {
+    id: 244,
+    text: "Business is about survival. And I intend to survive.",
+    author: "Obadiah Stane",
+    character: "Iron Man",
+    category: "inspirational"
   }
+  ];
 ];
