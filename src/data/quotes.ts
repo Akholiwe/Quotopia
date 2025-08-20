@@ -1729,5 +1729,4 @@ export const quotes: Quote[] = [
     character: "Iron Man",
     category: "inspirational"
   }
-  ];
 ];
