@@ -1,5 +1,234 @@
 import { Quote } from '../types/Quote';
 
+  // Anime & Movie Last Stands
+  {
+    id: 285,
+    text: "Even if I die, even if no one remembers me, the fact that I lived will remain. That's enough.",
+    author: "Senku Ishigami",
+    character: "Dr. Stone",
+    category: "inspirational"
+  },
+  {
+    id: 286,
+    text: "I am not going to run away, I never go back on my word! That's my nindō: my ninja way!",
+    author: "Naruto Uzumaki",
+    character: "Naruto",
+    category: "inspirational"
+  },
+  {
+    id: 287,
+    text: "We few, we happy few, we band of brothers. For he today that sheds his blood with me shall be my brother.",
+    author: "King Henry V",
+    character: "Henry V",
+    category: "inspirational"
+  },
+  {
+    id: 288,
+    text: "I can do this all day.",
+    author: "Steve Rogers",
+    character: "Captain America",
+    category: "inspirational"
+  },
+  {
+    id: 289,
+    text: "You shall not pass!",
+    author: "Gandalf",
+    character: "Lord of the Rings",
+    category: "inspirational"
+  },
+  {
+    id: 290,
+    text: "I'm not trapped in here with you. You're trapped in here with me!",
+    author: "Rorschach",
+    character: "Watchmen",
+    category: "bizarre"
+  },
+  {
+    id: 291,
+    text: "Even if this is the end, I'll keep moving forward until I destroy my enemies.",
+    author: "Eren Yeager",
+    character: "Attack on Titan",
+    category: "bizarre"
+  },
+  {
+    id: 292,
+    text: "I'll take a potato chip... and eat it!",
+    author: "Light Yagami",
+    character: "Death Note",
+    category: "bizarre"
+  },
+
+  // Codename: Kids Next Door
+  {
+    id: 293,
+    text: "Kids Next Door, battle stations!",
+    author: "Numbuh One",
+    character: "Codename: Kids Next Door",
+    category: "inspirational"
+  },
+  {
+    id: 294,
+    text: "We are the Kids Next Door! We fight for freedom! We fight for justice! We fight for the right to stay up past our bedtime!",
+    author: "Numbuh One",
+    character: "Codename: Kids Next Door",
+    category: "bizarre"
+  },
+  {
+    id: 295,
+    text: "Rainbow Monkeys are not just toys, they're a way of life!",
+    author: "Numbuh Three",
+    character: "Codename: Kids Next Door",
+    category: "bizarre"
+  },
+  {
+    id: 296,
+    text: "The mission comes first, but kids come first-er!",
+    author: "Numbuh Five",
+    character: "Codename: Kids Next Door",
+    category: "inspirational"
+  },
+  {
+    id: 297,
+    text: "I'm not just a kid, I'm a Kids Next Door operative!",
+    author: "Numbuh Two",
+    character: "Codename: Kids Next Door",
+    category: "inspirational"
+  },
+  {
+    id: 298,
+    text: "Adults are the enemy! Except for the good ones... but mostly they're the enemy!",
+    author: "Numbuh Four",
+    character: "Codename: Kids Next Door",
+    category: "bizarre"
+  },
+  {
+    id: 299,
+    text: "2x4 technology is the future!",
+    author: "Numbuh Two",
+    character: "Codename: Kids Next Door",
+    category: "bizarre"
+  },
+  {
+    id: 300,
+    text: "No matter how old we get, we'll always be kids at heart.",
+    author: "Numbuh One",
+    character: "Codename: Kids Next Door",
+    category: "inspirational"
+  },
+
+  // Movie Inspirational Speeches & Rally Calls
+  {
+    id: 301,
+    text: "Today we celebrate our Independence Day!",
+    author: "President Whitmore",
+    character: "Independence Day",
+    category: "inspirational"
+  },
+  {
+    id: 302,
+    text: "We will not go quietly into the night! We will not vanish without a fight!",
+    author: "President Whitmore",
+    character: "Independence Day",
+    category: "inspirational"
+  },
+  {
+    id: 303,
+    text: "I have a dream that one day this nation will rise up and live out the true meaning of its creed.",
+    author: "Martin Luther King Jr.",
+    character: "Historical Speech",
+    category: "inspirational"
+  },
+  {
+    id: 304,
+    text: "Ask not what your country can do for you—ask what you can do for your country.",
+    author: "John F. Kennedy",
+    character: "Presidential Inaugural",
+    category: "inspirational"
+  },
+  {
+    id: 305,
+    text: "We choose to go to the moon not because it is easy, but because it is hard.",
+    author: "John F. Kennedy",
+    character: "Moon Speech",
+    category: "inspirational"
+  },
+  {
+    id: 306,
+    text: "Freedom is never more than one generation away from extinction.",
+    author: "Ronald Reagan",
+    character: "Political Speech",
+    category: "inspirational"
+  },
+  {
+    id: 307,
+    text: "The only thing we have to fear is fear itself.",
+    author: "Franklin D. Roosevelt",
+    character: "Presidential Speech",
+    category: "inspirational"
+  },
+  {
+    id: 308,
+    text: "I may not be a smart man, but I know what love is.",
+    author: "Forrest Gump",
+    character: "Forrest Gump",
+    category: "inspirational"
+  },
+  {
+    id: 309,
+    text: "Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.",
+    author: "Ferris Bueller",
+    character: "Ferris Bueller's Day Off",
+    category: "inspirational"
+  },
+  {
+    id: 310,
+    text: "Nobody puts Baby in a corner.",
+    author: "Johnny Castle",
+    character: "Dirty Dancing",
+    category: "bizarre"
+  },
+  {
+    id: 311,
+    text: "I'll be back.",
+    author: "The Terminator",
+    character: "Terminator",
+    category: "bizarre"
+  },
+  {
+    id: 312,
+    text: "Frankly, my dear, I don't give a damn.",
+    author: "Rhett Butler",
+    character: "Gone with the Wind",
+    category: "bizarre"
+  },
+  {
+    id: 313,
+    text: "Here's looking at you, kid.",
+    author: "Rick Blaine",
+    character: "Casablanca",
+    category: "bizarre"
+  },
+  {
+    id: 314,
+    text: "May the Force be with you.",
+    author: "Various Characters",
+    character: "Star Wars",
+    category: "inspirational"
+  },
+  {
+    id: 315,
+    text: "I am your father.",
+    author: "Darth Vader",
+    character: "Star Wars",
+    category: "bizarre"
+  },
+  {
+    id: 316,
+    text: "Roads? Where we're going, we don't need roads.",
+    author: "Doc Brown",
+    character: "Back to the Future",
+    category: "bizarre"
+  }
 export const quotes: Quote[] = [
   // Inspirational Quotes
   {
