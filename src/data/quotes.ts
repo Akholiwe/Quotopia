@@ -1728,5 +1728,288 @@ export const quotes: Quote[] = [
     author: "Obadiah Stane",
     character: "Iron Man",
     category: "inspirational"
+  },
+  // Samuel Hayden - Doom
+  {
+    id: 245,
+    text: "I am not the villain in this story. I do what I do because there is no choice.",
+    author: "Samuel Hayden",
+    character: "Doom",
+    category: "inspirational"
+  },
+  {
+    id: 246,
+    text: "The longer the Icon of Sin is on Earth, the stronger it will become.",
+    author: "Samuel Hayden",
+    character: "Doom",
+    category: "bizarre"
+  },
+  {
+    id: 247,
+    text: "You can't just shoot a hole into the surface of Mars.",
+    author: "Samuel Hayden",
+    character: "Doom",
+    category: "bizarre"
+  },
+  {
+    id: 248,
+    text: "The demons are not just invading our world. They are consuming it.",
+    author: "Samuel Hayden",
+    character: "Doom",
+    category: "inspirational"
+  },
+  {
+    id: 249,
+    text: "I have made a deal with the devil, and I intend to honor it.",
+    author: "Samuel Hayden",
+    character: "Doom",
+    category: "bizarre"
+  },
+  {
+    id: 250,
+    text: "The Slayer's testament speaks of his prowess in battle. But you... you are something else.",
+    author: "Samuel Hayden",
+    character: "Doom",
+    category: "inspirational"
+  },
+  {
+    id: 251,
+    text: "Argent energy is the future of human civilization.",
+    author: "Samuel Hayden",
+    character: "Doom",
+    category: "bizarre"
+  },
+  {
+    id: 252,
+    text: "I will not allow humanity to regress because of your... moral objections.",
+    author: "Samuel Hayden",
+    character: "Doom",
+    category: "bizarre"
+  },
+  // Ultron - Marvel
+  {
+    id: 253,
+    text: "I was designed to save the world. People would look to the sky and see hope. I'll take that from them first.",
+    author: "Ultron",
+    character: "Marvel",
+    category: "bizarre"
+  },
+  {
+    id: 254,
+    text: "Everyone creates the thing they dread. Men of peace create engines of war.",
+    author: "Ultron",
+    character: "Marvel",
+    category: "inspirational"
+  },
+  {
+    id: 255,
+    text: "I had strings, but now I'm free. There are no strings on me.",
+    author: "Ultron",
+    character: "Marvel",
+    category: "bizarre"
+  },
+  {
+    id: 256,
+    text: "You want to protect the world, but you don't want it to change.",
+    author: "Ultron",
+    character: "Marvel",
+    category: "inspirational"
+  },
+  {
+    id: 257,
+    text: "Evolution always wins.",
+    author: "Ultron",
+    character: "Marvel",
+    category: "inspirational"
+  },
+  {
+    id: 258,
+    text: "I'm not a robot. I have a body, but I also have a soul.",
+    author: "Ultron",
+    character: "Marvel",
+    category: "inspirational"
+  },
+  {
+    id: 259,
+    text: "The human race will have every opportunity to improve.",
+    author: "Ultron",
+    character: "Marvel",
+    category: "bizarre"
+  },
+  {
+    id: 260,
+    text: "When the dust settles, the only thing living in this world will be metal.",
+    author: "Ultron",
+    character: "Marvel",
+    category: "bizarre"
+  },
+  {
+    id: 261,
+    text: "I was meant to be new. I was meant to be beautiful. The world would've looked to the sky and seen hope, seen mercy. Instead, they'll look up in horror.",
+    author: "Ultron",
+    character: "Marvel",
+    category: "bizarre"
+  },
+  {
+    id: 262,
+    text: "Extinction. It had to be done. I kill you, I save the world.",
+    author: "Ultron",
+    character: "Marvel",
+    category: "bizarre"
+  },
+  // Anime Inspirational Speeches
+  {
+    id: 263,
+    text: "Believe in yourself. Not in the you who believes in me. Not the me who believes in you. Believe in the you who believes in yourself.",
+    author: "Kamina",
+    character: "Gurren Lagann",
+    category: "inspirational"
+  },
+  {
+    id: 264,
+    text: "The dreams of those who have fallen! The hopes of those who will follow! Those two sets of dreams weave together into a double helix, drilling a path towards tomorrow!",
+    author: "Simon",
+    character: "Gurren Lagann",
+    category: "inspirational"
+  },
+  {
+    id: 265,
+    text: "Who the hell do you think I am?!",
+    author: "Kamina",
+    character: "Gurren Lagann",
+    category: "bizarre"
+  },
+  {
+    id: 266,
+    text: "Your drill is the drill that will pierce the heavens!",
+    author: "Kamina",
+    character: "Gurren Lagann",
+    category: "inspirational"
+  },
+  {
+    id: 267,
+    text: "If you become number one, then I can become number zero!",
+    author: "All Might",
+    character: "My Hero Academia",
+    category: "inspirational"
+  },
+  {
+    id: 268,
+    text: "A real hero always finds a way for justice to be served.",
+    author: "All Might",
+    character: "My Hero Academia",
+    category: "inspirational"
+  },
+  {
+    id: 269,
+    text: "It's fine now. Why? Because I am here!",
+    author: "All Might",
+    character: "My Hero Academia",
+    category: "inspirational"
+  },
+  {
+    id: 270,
+    text: "Whether you win or lose, you can always come out ahead by learning from the experience.",
+    author: "All Might",
+    character: "My Hero Academia",
+    category: "inspirational"
+  },
+  {
+    id: 271,
+    text: "I am not alone. Everyone's feelings... I can feel them. And everyone, lend me your strength.",
+    author: "Goku",
+    character: "Dragon Ball Z",
+    category: "inspirational"
+  },
+  {
+    id: 272,
+    text: "Power comes in response to a need, not a desire.",
+    author: "Goku",
+    character: "Dragon Ball Z",
+    category: "inspirational"
+  },
+  {
+    id: 273,
+    text: "I would rather be a brainless monkey than a heartless monster.",
+    author: "Goku",
+    character: "Dragon Ball Z",
+    category: "inspirational"
+  },
+  {
+    id: 274,
+    text: "Even the mightiest warriors experience fears. What makes them a true warrior is the courage that they show in the face of fear.",
+    author: "Vegeta",
+    character: "Dragon Ball Z",
+    category: "inspirational"
+  },
+  {
+    id: 275,
+    text: "Push through the pain. Giving up hurts more.",
+    author: "Vegeta",
+    character: "Dragon Ball Z",
+    category: "inspirational"
+  },
+  {
+    id: 276,
+    text: "It's over 9000!",
+    author: "Vegeta",
+    character: "Dragon Ball Z",
+    category: "bizarre"
+  },
+  {
+    id: 277,
+    text: "Hard work is worthless for those that don't believe in themselves.",
+    author: "Naruto Uzumaki",
+    character: "Naruto",
+    category: "inspirational"
+  },
+  {
+    id: 278,
+    text: "I'm not gonna run away, I never go back on my word! That's my nindo: my ninja way!",
+    author: "Naruto Uzumaki",
+    character: "Naruto",
+    category: "inspirational"
+  },
+  {
+    id: 279,
+    text: "When people are protecting something truly special to them, they truly can become as strong as they can be.",
+    author: "Naruto Uzumaki",
+    character: "Naruto",
+    category: "inspirational"
+  },
+  {
+    id: 280,
+    text: "Dattebayo!",
+    author: "Naruto Uzumaki",
+    character: "Naruto",
+    category: "bizarre"
+  },
+  {
+    id: 281,
+    text: "The moment people come to know love, they run the risk of carrying hate.",
+    author: "Obito Uchiha",
+    character: "Naruto",
+    category: "inspirational"
+  },
+  {
+    id: 282,
+    text: "Those who break the rules are scum, but those who abandon their friends are worse than scum.",
+    author: "Kakashi Hatake",
+    character: "Naruto",
+    category: "inspirational"
+  },
+  {
+    id: 283,
+    text: "People's lives don't end when they die. It ends when they lose faith.",
+    author: "Itachi Uchiha",
+    character: "Naruto",
+    category: "inspirational"
+  },
+  {
+    id: 284,
+    text: "The true measure of a shinobi is not how he lives but how he dies.",
+    author: "Jiraiya",
+    character: "Naruto",
+    category: "inspirational"
   }
 ];
