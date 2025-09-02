@@ -6,7 +6,7 @@ import { Quote } from '../types/Quote';
     text: "Even if I die, even if no one remembers me, the fact that I lived will remain. That's enough.",
     author: "Senku Ishigami",
     character: "Dr. Stone",
-    category: "inspirational",
+    category: "inspirational"
   },
   {
     id: 286,
