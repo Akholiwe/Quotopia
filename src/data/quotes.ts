@@ -1,236 +1,7 @@
 import { Quote } from '../types/Quote';
 
-  // Anime & Movie Last Stands
-  {
-    id: 285,
-    text: "Even if I die, even if no one remembers me, the fact that I lived will remain. That's enough.",
-    author: "Senku Ishigami",
-    character: "Dr. Stone",
-    category: "inspirational"
-  },
-  {
-    id: 286,
-    text: "I am not going to run away, I never go back on my word! That's my nindō: my ninja way!",
-    author: "Naruto Uzumaki",
-    character: "Naruto",
-    category: "inspirational"
-  },
-  {
-    id: 287,
-    text: "We few, we happy few, we band of brothers. For he today that sheds his blood with me shall be my brother.",
-    author: "King Henry V",
-    character: "Henry V",
-    category: "inspirational"
-  },
-  {
-    id: 288,
-    text: "I can do this all day.",
-    author: "Steve Rogers",
-    character: "Captain America",
-    category: "inspirational"
-  },
-  {
-    id: 289,
-    text: "You shall not pass!",
-    author: "Gandalf",
-    character: "Lord of the Rings",
-    category: "inspirational"
-  },
-  {
-    id: 290,
-    text: "I'm not trapped in here with you. You're trapped in here with me!",
-    author: "Rorschach",
-    character: "Watchmen",
-    category: "bizarre"
-  },
-  {
-    id: 291,
-    text: "Even if this is the end, I'll keep moving forward until I destroy my enemies.",
-    author: "Eren Yeager",
-    character: "Attack on Titan",
-    category: "bizarre"
-  },
-  {
-    id: 292,
-    text: "I'll take a potato chip... and eat it!",
-    author: "Light Yagami",
-    character: "Death Note",
-    category: "bizarre"
-  },
-
-  // Codename: Kids Next Door
-  {
-    id: 293,
-    text: "Kids Next Door, battle stations!",
-    author: "Numbuh One",
-    character: "Codename: Kids Next Door",
-    category: "inspirational"
-  },
-  {
-    id: 294,
-    text: "We are the Kids Next Door! We fight for freedom! We fight for justice! We fight for the right to stay up past our bedtime!",
-    author: "Numbuh One",
-    character: "Codename: Kids Next Door",
-    category: "bizarre"
-  },
-  {
-    id: 295,
-    text: "Rainbow Monkeys are not just toys, they're a way of life!",
-    author: "Numbuh Three",
-    character: "Codename: Kids Next Door",
-    category: "bizarre"
-  },
-  {
-    id: 296,
-    text: "The mission comes first, but kids come first-er!",
-    author: "Numbuh Five",
-    character: "Codename: Kids Next Door",
-    category: "inspirational"
-  },
-  {
-    id: 297,
-    text: "I'm not just a kid, I'm a Kids Next Door operative!",
-    author: "Numbuh Two",
-    character: "Codename: Kids Next Door",
-    category: "inspirational"
-  },
-  {
-    id: 298,
-    text: "Adults are the enemy! Except for the good ones... but mostly they're the enemy!",
-    author: "Numbuh Four",
-    character: "Codename: Kids Next Door",
-    category: "bizarre"
-  },
-  {
-    id: 299,
-    text: "2x4 technology is the future!",
-    author: "Numbuh Two",
-    character: "Codename: Kids Next Door",
-    category: "bizarre"
-  },
-  {
-    id: 300,
-    text: "No matter how old we get, we'll always be kids at heart.",
-    author: "Numbuh One",
-    character: "Codename: Kids Next Door",
-    category: "inspirational"
-  },
-
-  // Movie Inspirational Speeches & Rally Calls
-  {
-    id: 301,
-    text: "Today we celebrate our Independence Day!",
-    author: "President Whitmore",
-    character: "Independence Day",
-    category: "inspirational"
-  },
-  {
-    id: 302,
-    text: "We will not go quietly into the night! We will not vanish without a fight!",
-    author: "President Whitmore",
-    character: "Independence Day",
-    category: "inspirational"
-  },
-  {
-    id: 303,
-    text: "I have a dream that one day this nation will rise up and live out the true meaning of its creed.",
-    author: "Martin Luther King Jr.",
-    character: "Historical Speech",
-    category: "inspirational"
-  },
-  {
-    id: 304,
-    text: "Ask not what your country can do for you—ask what you can do for your country.",
-    author: "John F. Kennedy",
-    character: "Presidential Inaugural",
-    category: "inspirational"
-  },
-  {
-    id: 305,
-    text: "We choose to go to the moon not because it is easy, but because it is hard.",
-    author: "John F. Kennedy",
-    character: "Moon Speech",
-    category: "inspirational"
-  },
-  {
-    id: 306,
-    text: "Freedom is never more than one generation away from extinction.",
-    author: "Ronald Reagan",
-    character: "Political Speech",
-    category: "inspirational"
-  },
-  {
-    id: 307,
-    text: "The only thing we have to fear is fear itself.",
-    author: "Franklin D. Roosevelt",
-    character: "Presidential Speech",
-    category: "inspirational"
-  },
-  {
-    id: 308,
-    text: "I may not be a smart man, but I know what love is.",
-    author: "Forrest Gump",
-    character: "Forrest Gump",
-    category: "inspirational"
-  },
-  {
-    id: 309,
-    text: "Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.",
-    author: "Ferris Bueller",
-    character: "Ferris Bueller's Day Off",
-    category: "inspirational"
-  },
-  {
-    id: 310,
-    text: "Nobody puts Baby in a corner.",
-    author: "Johnny Castle",
-    character: "Dirty Dancing",
-    category: "bizarre"
-  },
-  {
-    id: 311,
-    text: "I'll be back.",
-    author: "The Terminator",
-    character: "Terminator",
-    category: "bizarre"
-  },
-  {
-    id: 312,
-    text: "Frankly, my dear, I don't give a damn.",
-    author: "Rhett Butler",
-    character: "Gone with the Wind",
-    category: "bizarre"
-  },
-  {
-    id: 313,
-    text: "Here's looking at you, kid.",
-    author: "Rick Blaine",
-    character: "Casablanca",
-    category: "bizarre"
-  },
-  {
-    id: 314,
-    text: "May the Force be with you.",
-    author: "Various Characters",
-    character: "Star Wars",
-    category: "inspirational"
-  },
-  {
-    id: 315,
-    text: "I am your father.",
-    author: "Darth Vader",
-    character: "Star Wars",
-    category: "bizarre"
-  },
-  {
-    id: 316,
-    text: "Roads? Where we're going, we don't need roads.",
-    author: "Doc Brown",
-    character: "Back to the Future",
-    category: "bizarre"
-  }
 export const quotes: Quote[] = [
-  // Inspirational Quotes
+  // Original quotes
   {
     id: 1,
     text: "The only way to do great work is to love what you do.",
@@ -239,1669 +10,1627 @@ export const quotes: Quote[] = [
   },
   {
     id: 2,
-    text: "Be yourself; everyone else is already taken.",
-    author: "Oscar Wilde",
+    text: "Life is what happens to you while you're busy making other plans.",
+    author: "John Lennon",
     category: "inspirational"
   },
   {
     id: 3,
+    text: "The future belongs to those who believe in the beauty of their dreams.",
+    author: "Eleanor Roosevelt",
+    category: "inspirational"
+  },
+  {
+    id: 4,
+    text: "It is during our darkest moments that we must focus to see the light.",
+    author: "Aristotle",
+    category: "inspirational"
+  },
+  {
+    id: 5,
+    text: "The way to get started is to quit talking and begin doing.",
+    author: "Walt Disney",
+    category: "inspirational"
+  },
+  {
+    id: 6,
+    text: "Don't let yesterday take up too much of today.",
+    author: "Will Rogers",
+    category: "inspirational"
+  },
+  {
+    id: 7,
+    text: "You learn more from failure than from success. Don't let it stop you. Failure builds character.",
+    author: "Unknown",
+    category: "inspirational"
+  },
+  {
+    id: 8,
+    text: "If you are working on something that you really care about, you don't have to be pushed. The vision pulls you.",
+    author: "Steve Jobs",
+    category: "inspirational"
+  },
+  {
+    id: 9,
+    text: "I have not failed. I've just found 10,000 ways that won't work.",
+    author: "Thomas A. Edison",
+    category: "inspirational"
+  },
+  {
+    id: 10,
+    text: "A person who never made a mistake never tried anything new.",
+    author: "Albert Einstein",
+    category: "inspirational"
+  },
+  {
+    id: 11,
+    text: "The only impossible journey is the one you never begin.",
+    author: "Tony Robbins",
+    category: "inspirational"
+  },
+  {
+    id: 12,
+    text: "In this moment, I am euphoric. Not because of any phony god's blessing. But because, I am enlightened by my own intelligence.",
+    author: "Anonymous Redditor",
+    category: "bizarre"
+  },
+  {
+    id: 13,
+    text: "I studied the blade while you were partying.",
+    author: "Mall Ninja",
+    category: "bizarre"
+  },
+  {
+    id: 14,
+    text: "My IQ is 169, which is higher than 99.9% of the population.",
+    author: "Internet Genius",
+    category: "bizarre"
+  },
+  {
+    id: 15,
+    text: "I don't watch TV. It's a waste of time. I prefer to read quantum physics papers for fun.",
+    author: "Enlightened Individual",
+    category: "bizarre"
+  },
+  {
+    id: 16,
+    text: "While you were studying, I mastered the blockchain.",
+    author: "Crypto Philosopher",
+    category: "bizarre"
+  },
+  {
+    id: 17,
+    text: "I only date people with PhDs because I need intellectual stimulation.",
+    author: "Superior Mind",
+    category: "bizarre"
+  },
+  {
+    id: 18,
+    text: "I don't have friends, I have intellectual companions.",
+    author: "Lone Wolf Genius",
+    category: "bizarre"
+  },
+  {
+    id: 19,
+    text: "My taste in music is too sophisticated for the masses.",
+    author: "Cultural Elite",
+    category: "bizarre"
+  },
+  {
+    id: 20,
+    text: "I was born in the wrong generation. I should have lived in the Renaissance.",
+    author: "Time Displaced Soul",
+    category: "bizarre"
+  },
+  {
+    id: 21,
     text: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
     author: "Winston Churchill",
     category: "inspirational"
   },
   {
-    id: 4,
-    text: "The future belongs to those who believe in the beauty of their dreams.",
-    author: "Eleanor Roosevelt",
-    category: "inspirational"
-  },
-  // Bizarre Quotes
-  {
-    id: 5,
-    text: "I haven't slept for ten days, because that would be too long.",
-    author: "Mitch Hedberg",
-    category: "bizarre"
-  },
-  {
-    id: 6,
-    text: "I told my wife the truth. I told her I was seeing a psychiatrist. Then she told me the truth: that she was seeing a psychiatrist, two plumbers, and a bartender.",
-    author: "Rodney Dangerfield",
-    category: "bizarre"
-  },
-  {
-    id: 7,
-    text: "I'm not superstitious, but I am a little stitious.",
-    author: "Michael Scott",
-    character: "The Office",
-    category: "bizarre"
-  },
-  {
-    id: 8,
-    text: "I used to hate facial hair, but then it grew on me.",
-    author: "Anonymous",
-    category: "bizarre"
-  },
-  // Kung Fu Panda
-  {
-    id: 9,
-    text: "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
-    author: "Master Oogway",
-    character: "Kung Fu Panda",
-    category: "inspirational"
-  },
-  {
-    id: 10,
-    text: "There is no secret ingredient. It's just you.",
-    author: "Po's Father",
-    character: "Kung Fu Panda",
-    category: "inspirational"
-  },
-  {
-    id: 11,
-    text: "Your mind is like this water, my friend. When it is agitated, it becomes difficult to see. When it is calm, everything becomes clear.",
-    author: "Master Oogway",
-    character: "Kung Fu Panda",
-    category: "inspirational"
-  },
-  {
-    id: 12,
-    text: "Skadoosh!",
-    author: "Po",
-    character: "Kung Fu Panda",
-    category: "bizarre"
-  },
-  {
-    id: 13,
-    text: "The mark of a true hero is humility.",
-    author: "Master Oogway",
-    character: "Kung Fu Panda",
-    category: "inspirational"
-  },
-  {
-    id: 14,
-    text: "I'm not a big fat panda. I'm THE big fat panda!",
-    author: "Po",
-    character: "Kung Fu Panda",
-    category: "bizarre"
-  },
-  {
-    id: 15,
-    text: "Inner peace... inner peace...",
-    author: "Po",
-    character: "Kung Fu Panda",
-    category: "bizarre"
-  },
-  {
-    id: 16,
-    text: "There are no accidents.",
-    author: "Master Oogway",
-    character: "Kung Fu Panda",
-    category: "inspirational"
-  },
-  // Halo Wars 1 & 2
-  {
-    id: 17,
-    text: "All units, this is Red Team. We are the tip of the spear.",
-    author: "Jerome-092",
-    character: "Halo Wars 2",
-    category: "inspirational"
-  },
-  {
-    id: 18,
-    text: "We've kicked the Covenant's ass before, we can do it again.",
-    author: "Sergeant Forge",
-    character: "Halo Wars",
-    category: "inspirational"
-  },
-  {
-    id: 19,
-    text: "Sometimes the only way to save a life... is to take one.",
-    author: "Captain Cutter",
-    character: "Halo Wars",
-    category: "inspirational"
-  },
-  {
-    id: 20,
-    text: "I am Atriox. And I am the last face you will ever see.",
-    author: "Atriox",
-    character: "Halo Wars 2",
-    category: "bizarre"
-  },
-  {
-    id: 21,
-    text: "Every battle is won before it's ever fought.",
-    author: "Professor Anders",
-    character: "Halo Wars",
-    category: "inspirational"
-  },
-  {
     id: 22,
-    text: "We're going to take the fight to them. No more running.",
-    author: "Captain Cutter",
-    character: "Halo Wars",
+    text: "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.",
+    author: "Winston Churchill",
     category: "inspirational"
   },
   {
     id: 23,
-    text: "The Banished do not simply occupy territory. We rule it.",
-    author: "Atriox",
-    character: "Halo Wars 2",
-    category: "bizarre"
+    text: "It does not matter how slowly you go as long as you do not stop.",
+    author: "Confucius",
+    category: "inspirational"
   },
   {
     id: 24,
-    text: "Your Spartans are impressive, but they are not gods.",
-    author: "Atriox",
-    character: "Halo Wars 2",
-    category: "bizarre"
+    text: "Everything you've ever wanted is on the other side of fear.",
+    author: "George Addair",
+    category: "inspirational"
   },
-  // Star Wars - Jedi/Rebels
   {
     id: 25,
-    text: "Do or do not, there is no try.",
-    author: "Yoda",
-    character: "Star Wars",
+    text: "Believe you can and you're halfway there.",
+    author: "Theodore Roosevelt",
     category: "inspirational"
   },
   {
     id: 26,
-    text: "Fear is the path to the dark side. Fear leads to anger, anger leads to hate, hate leads to suffering.",
-    author: "Yoda",
-    character: "Star Wars",
+    text: "The only person you are destined to become is the person you decide to be.",
+    author: "Ralph Waldo Emerson",
     category: "inspirational"
   },
   {
     id: 27,
-    text: "The Force will be with you.",
-    author: "Obi-Wan Kenobi",
-    character: "Star Wars",
+    text: "Go confidently in the direction of your dreams. Live the life you have imagined.",
+    author: "Henry David Thoreau",
     category: "inspirational"
   },
   {
     id: 28,
-    text: "Size matters not. Look at me. Judge me by my size, do you?",
-    author: "Yoda",
-    character: "Star Wars",
-    category: "inspirational"
+    text: "When I was your age, television was called books.",
+    author: "Grandfather Simpson",
+    character: "The Simpsons",
+    category: "bizarre"
   },
   {
     id: 29,
-    text: "The greatest teacher, failure is.",
-    author: "Yoda",
-    character: "Star Wars",
-    category: "inspirational"
+    text: "I am so smart! S-M-R-T!",
+    author: "Homer Simpson",
+    character: "The Simpsons",
+    category: "bizarre"
   },
   {
     id: 30,
-    text: "Your focus determines your reality.",
-    author: "Qui-Gon Jinn",
-    character: "Star Wars",
-    category: "inspirational"
+    text: "Kids, you tried your best and you failed miserably. The lesson is, never try.",
+    author: "Homer Simpson",
+    character: "The Simpsons",
+    category: "bizarre"
   },
   {
     id: 31,
-    text: "Train yourself to let go of everything you fear to lose.",
-    author: "Yoda",
-    character: "Star Wars",
+    text: "I'm not a smart man, but I know what love is.",
+    author: "Forrest Gump",
+    character: "Forrest Gump",
     category: "inspirational"
   },
   {
     id: 32,
-    text: "Luminous beings are we, not this crude matter.",
-    author: "Yoda",
-    character: "Star Wars",
+    text: "Life is like a box of chocolates. You never know what you're gonna get.",
+    author: "Forrest Gump",
+    character: "Forrest Gump",
     category: "inspirational"
   },
-  // Star Wars - Empire/Sith
   {
     id: 33,
-    text: "I find your lack of faith disturbing.",
-    author: "Darth Vader",
-    character: "Star Wars Empire",
+    text: "Stupid is as stupid does.",
+    author: "Forrest Gump",
+    character: "Forrest Gump",
     category: "bizarre"
   },
   {
     id: 34,
-    text: "I am your father.",
-    author: "Darth Vader",
-    character: "Star Wars Empire",
+    text: "I am inevitable.",
+    author: "Thanos",
+    character: "Avengers: Endgame",
     category: "bizarre"
   },
   {
     id: 35,
-    text: "You don't know the power of the dark side.",
-    author: "Darth Vader",
-    character: "Star Wars Empire",
+    text: "The hardest choices require the strongest wills.",
+    author: "Thanos",
+    character: "Avengers: Infinity War",
     category: "bizarre"
   },
   {
     id: 36,
-    text: "The ability to destroy a planet is insignificant next to the power of the Force.",
-    author: "Darth Vader",
-    character: "Star Wars Empire",
-    category: "inspirational"
+    text: "I used the stones to destroy the stones.",
+    author: "Thanos",
+    character: "Avengers: Endgame",
+    category: "bizarre"
   },
   {
     id: 37,
-    text: "Search your feelings. You know it to be true.",
-    author: "Darth Vader",
-    character: "Star Wars Empire",
-    category: "inspirational"
+    text: "Reality is often disappointing.",
+    author: "Thanos",
+    character: "Avengers: Infinity War",
+    category: "bizarre"
   },
   {
     id: 38,
-    text: "It is your destiny. Join me, and together we can rule the galaxy as father and son.",
-    author: "Darth Vader",
-    character: "Star Wars Empire",
+    text: "You should have gone for the head.",
+    author: "Thanos",
+    character: "Avengers: Infinity War",
     category: "bizarre"
   },
   {
     id: 39,
-    text: "Power! Unlimited power!",
-    author: "Emperor Palpatine",
-    character: "Star Wars Empire",
+    text: "I don't feel so good...",
+    author: "Peter Parker",
+    character: "Avengers: Infinity War",
     category: "bizarre"
   },
   {
     id: 40,
-    text: "Good is a point of view, Anakin.",
-    author: "Emperor Palpatine",
-    character: "Star Wars Empire",
-    category: "bizarre"
+    text: "That's what heroes do.",
+    author: "Thor",
+    character: "Thor: Love and Thunder",
+    category: "inspirational"
   },
   {
     id: 41,
-    text: "I have brought peace, freedom, justice, and security to my new empire.",
-    author: "Darth Vader",
-    character: "Star Wars Empire",
-    category: "bizarre"
-  },
-  {
-    id: 42,
-    text: "You underestimate my power!",
-    author: "Anakin Skywalker",
-    character: "Star Wars Empire",
-    category: "bizarre"
-  },
-  {
-    id: 43,
-    text: "From my point of view, the Jedi are evil!",
-    author: "Anakin Skywalker",
-    character: "Star Wars Empire",
-    category: "bizarre"
-  },
-  {
-    id: 44,
-    text: "The Emperor is not as forgiving as I am.",
-    author: "Darth Vader",
-    character: "Star Wars Empire",
-    category: "bizarre"
-  },
-  {
-    id: 45,
-    text: "You have failed me for the last time.",
-    author: "Darth Vader",
-    character: "Star Wars Empire",
-    category: "bizarre"
-  },
-  {
-    id: 46,
-    text: "I sense great fear in you, Skywalker. You have hate, you have anger, but you don't use them.",
-    author: "Count Dooku",
-    character: "Star Wars Empire",
-    category: "bizarre"
-  },
-  {
-    id: 47,
-    text: "Peace is a lie. There is only passion.",
-    author: "Sith Code",
-    character: "Star Wars Empire",
-    category: "bizarre"
-  },
-  {
-    id: 48,
-    text: "The dark side of the Force is a pathway to many abilities some consider to be unnatural.",
-    author: "Emperor Palpatine",
-    character: "Star Wars Empire",
-    category: "bizarre"
-  },
-  // Thrawn
-  {
-    id: 49,
-    text: "To defeat an enemy, you must know them. Not simply their battle tactics, but their history, philosophy, art.",
-    author: "Grand Admiral Thrawn",
-    character: "Star Wars Empire",
-    category: "inspirational"
-  },
-  {
-    id: 50,
-    text: "I study the art of war. Work to perfect it.",
-    author: "Grand Admiral Thrawn",
-    character: "Star Wars Empire",
-    category: "inspirational"
-  },
-  {
-    id: 51,
-    text: "The key to understanding a species is to understand their art.",
-    author: "Grand Admiral Thrawn",
-    character: "Star Wars Empire",
-    category: "inspirational"
-  },
-  {
-    id: 52,
-    text: "Do you know the difference between an error and a mistake? Anyone can make an error. But that error doesn't become a mistake until you refuse to correct it.",
-    author: "Grand Admiral Thrawn",
-    character: "Star Wars Empire",
-    category: "inspirational"
-  },
-  {
-    id: 53,
-    text: "War is not about who is right. It is about who is left.",
-    author: "Grand Admiral Thrawn",
-    character: "Star Wars Empire",
-    category: "inspirational"
-  },
-  {
-    id: 54,
-    text: "I have no qualms about accepting a useful idea merely because it wasn't my own.",
-    author: "Grand Admiral Thrawn",
-    character: "Star Wars Empire",
-    category: "inspirational"
-  },
-  {
-    id: 55,
-    text: "I will start my operations here, and pull the rebels apart piece by piece.",
-    author: "Grand Admiral Thrawn",
-    character: "Star Wars Empire",
-    category: "bizarre"
-  },
-  {
-    id: 56,
-    text: "The Empire's time has come. You may continue to fight, but you will only delay the inevitable.",
-    author: "Grand Admiral Thrawn",
-    character: "Star Wars Empire",
-    category: "bizarre"
-  },
-  // Helghast - Killzone
-  {
-    id: 57,
-    text: "We are the Helghast! We are the master race!",
-    author: "Scolar Visari",
-    character: "Killzone Helghast",
-    category: "bizarre"
-  },
-  {
-    id: 58,
-    text: "Today, we take back Helghan! Today, we show them that the Helghast will not be denied!",
-    author: "Scolar Visari",
-    character: "Killzone Helghast",
-    category: "bizarre"
-  },
-  {
-    id: 59,
-    text: "The age of man is over. A darkness comes at dawn. These lessons that we learned here have only just begun.",
-    author: "Helghast Soldier",
-    character: "Killzone Helghast",
-    category: "bizarre"
-  },
-  {
-    id: 60,
-    text: "The ISA will learn that we are not so easily broken.",
-    author: "Helghast Commander",
-    character: "Killzone Helghast",
-    category: "bizarre"
-  },
-  {
-    id: 61,
-    text: "Victory is our destiny. Defeat is not an option.",
-    author: "Helghast Officer",
-    character: "Killzone Helghast",
-    category: "bizarre"
-  },
-  {
-    id: 62,
-    text: "For Helghan! For the glory of the Helghast Empire!",
-    author: "Helghast Trooper",
-    character: "Killzone Helghast",
-    category: "bizarre"
-  },
-  {
-    id: 63,
-    text: "We shall rise from the ashes of defeat, stronger than before.",
-    author: "Scolar Visari",
-    character: "Killzone Helghast",
-    category: "inspirational"
-  },
-  {
-    id: 64,
-    text: "The weak will always be crushed by the strong. This is the natural order.",
-    author: "Helghast General",
-    character: "Killzone Helghast",
-    category: "bizarre"
-  },
-  {
-    id: 65,
-    text: "Fear is the mind-killer. Embrace it, and you become unstoppable.",
-    author: "Helghast Psychologist",
-    character: "Killzone Helghast",
-    category: "bizarre"
-  },
-  {
-    id: 66,
-    text: "In war, there are no unwounded soldiers.",
-    author: "Helghast Veteran",
-    character: "Killzone Helghast",
-    category: "inspirational"
-  },
-  {
-    id: 67,
-    text: "The Helghast do not retreat. We advance in a different direction.",
-    author: "Helghast Colonel",
-    character: "Killzone Helghast",
-    category: "bizarre"
-  },
-  {
-    id: 68,
-    text: "Our blood is our strength. Our unity is our power.",
-    author: "Helghast Propaganda",
-    character: "Killzone Helghast",
-    category: "bizarre"
-  },
-  // Disney Movies
-  {
-    id: 69,
-    text: "The past can hurt. But the way I see it, you can either run from it or learn from it.",
-    author: "Rafiki",
-    character: "The Lion King",
-    category: "inspirational"
-  },
-  {
-    id: 70,
-    text: "Remember who you are.",
-    author: "Mufasa",
-    character: "The Lion King",
-    category: "inspirational"
-  },
-  {
-    id: 71,
-    text: "You are more than what you have become.",
-    author: "Mufasa",
-    character: "The Lion King",
-    category: "inspirational"
-  },
-  {
-    id: 72,
-    text: "Just keep swimming, just keep swimming!",
-    author: "Dory",
-    character: "Finding Nemo",
-    category: "inspirational"
-  },
-  {
-    id: 73,
-    text: "When life gets you down, you know what you gotta do? Just keep swimming.",
-    author: "Dory",
-    character: "Finding Nemo",
-    category: "inspirational"
-  },
-  {
-    id: 74,
-    text: "The cold never bothered me anyway.",
-    author: "Elsa",
-    character: "Frozen",
-    category: "inspirational"
-  },
-  {
-    id: 75,
-    text: "Some people are worth melting for.",
-    author: "Olaf",
-    character: "Frozen",
-    category: "inspirational"
-  },
-  {
-    id: 76,
-    text: "Love is putting someone else's needs before yours.",
-    author: "Olaf",
-    character: "Frozen",
-    category: "inspirational"
-  },
-  {
-    id: 77,
-    text: "Adventure is out there!",
-    author: "Ellie",
-    character: "Up",
-    category: "inspirational"
-  },
-  {
-    id: 78,
-    text: "Thanks for the adventure. Now go have a new one!",
-    author: "Ellie",
-    character: "Up",
-    category: "inspirational"
-  },
-  {
-    id: 79,
-    text: "To infinity and beyond!",
-    author: "Buzz Lightyear",
-    character: "Toy Story",
-    category: "inspirational"
-  },
-  {
-    id: 80,
-    text: "You've got a friend in me.",
-    author: "Woody",
-    character: "Toy Story",
-    category: "inspirational"
-  },
-  {
-    id: 81,
-    text: "The flower that blooms in adversity is the most rare and beautiful of all.",
-    author: "The Emperor",
-    character: "Mulan",
-    category: "inspirational"
-  },
-  {
-    id: 82,
-    text: "A whole new world, a dazzling place I never knew!",
-    author: "Aladdin",
-    character: "Aladdin",
-    category: "inspirational"
-  },
-  {
-    id: 83,
-    text: "Even miracles take a little time.",
-    author: "Fairy Godmother",
-    character: "Cinderella",
-    category: "inspirational"
-  },
-  {
-    id: 84,
-    text: "Hakuna Matata! What a wonderful phrase!",
-    author: "Timon & Pumbaa",
-    character: "The Lion King",
-    category: "bizarre"
-  },
-  {
-    id: 85,
-    text: "I'm surrounded by idiots.",
-    author: "Scar",
-    character: "The Lion King",
-    category: "bizarre"
-  },
-  {
-    id: 86,
-    text: "P. Sherman, 42 Wallaby Way, Sydney.",
-    author: "Dory",
-    character: "Finding Nemo",
-    category: "bizarre"
-  },
-  {
-    id: 87,
-    text: "Let it go, let it go! Can't hold it back anymore!",
-    author: "Elsa",
-    character: "Frozen",
-    category: "bizarre"
-  },
-  {
-    id: 88,
-    text: "Do you want to build a snowman?",
-    author: "Anna",
-    character: "Frozen",
-    category: "bizarre"
-  },
-  // DreamWorks Movies
-  {
-    id: 89,
-    text: "Ogres are like onions. They have layers.",
-    author: "Shrek",
-    character: "Shrek",
-    category: "inspirational"
-  },
-  {
-    id: 90,
-    text: "Sometimes you have to believe in yourself when no one else will.",
-    author: "Hiccup",
-    character: "How to Train Your Dragon",
-    category: "inspirational"
-  },
-  {
-    id: 91,
-    text: "With love comes loss. It's part of the deal. Sometimes it hurts, but in the end, it's all worth it.",
-    author: "Stoick",
-    character: "How to Train Your Dragon",
-    category: "inspirational"
-  },
-  {
-    id: 92,
-    text: "I wouldn't kill him because he looked as frightened as I was. I looked at him and I saw myself.",
-    author: "Hiccup",
-    character: "How to Train Your Dragon",
-    category: "inspirational"
-  },
-  {
-    id: 93,
-    text: "Your story may not have such a happy beginning, but that doesn't make you who you are. It is the rest of your story, who you choose to be.",
-    author: "Soothsayer",
-    character: "Kung Fu Panda 2",
-    category: "inspirational"
-  },
-  {
-    id: 94,
-    text: "You must let go of the illusion of control.",
-    author: "Master Oogway",
-    character: "Kung Fu Panda",
-    category: "inspirational"
-  },
-  {
-    id: 95,
-    text: "Better out than in, I always say!",
-    author: "Shrek",
-    character: "Shrek",
-    category: "bizarre"
-  },
-  {
-    id: 96,
-    text: "I like that boulder. That is a nice boulder.",
-    author: "Donkey",
-    character: "Shrek",
-    category: "bizarre"
-  },
-  {
-    id: 97,
-    text: "What are you doing in my swamp?!",
-    author: "Shrek",
-    character: "Shrek",
-    category: "bizarre"
-  },
-  {
-    id: 98,
-    text: "This is Berk. It's twelve days north of Hopeless and a few degrees south of Freezing to Death.",
-    author: "Hiccup",
-    character: "How to Train Your Dragon",
-    category: "bizarre"
-  },
-  {
-    id: 99,
-    text: "I like to move it, move it!",
-    author: "King Julien",
-    character: "Madagascar",
-    category: "bizarre"
-  },
-  {
-    id: 100,
-    text: "Smile and wave, boys. Smile and wave.",
-    author: "Skipper",
-    character: "Madagascar",
-    category: "bizarre"
-  },
-  // Halo
-  {
-    id: 101,
-    text: "Spartans never die. They're just missing in action.",
-    author: "Dr. Catherine Halsey",
-    character: "Halo",
-    category: "inspirational"
-  },
-  {
-    id: 102,
-    text: "Don't make a girl a promise if you know you can't keep it.",
-    author: "Cortana",
-    character: "Halo",
-    category: "inspirational"
-  },
-  {
-    id: 103,
-    text: "Were it so easy.",
-    author: "Arbiter",
-    character: "Halo",
-    category: "inspirational"
-  },
-  {
-    id: 104,
-    text: "Sir, finishing this fight.",
-    author: "Master Chief",
-    character: "Halo",
-    category: "inspirational"
-  },
-  {
-    id: 105,
-    text: "I need a weapon.",
-    author: "Master Chief",
-    character: "Halo",
-    category: "bizarre"
-  },
-  {
-    id: 106,
-    text: "Wake me when you need me.",
-    author: "Master Chief",
-    character: "Halo",
-    category: "bizarre"
-  },
-  {
-    id: 107,
-    text: "Thought I'd try shooting my way out. Mix things up a little.",
-    author: "Master Chief",
-    character: "Halo",
-    category: "bizarre"
-  },
-  {
-    id: 108,
-    text: "For a brick, he flew pretty good!",
-    author: "Sergeant Johnson",
-    character: "Halo",
-    category: "bizarre"
-  },
-  // Call of Duty
-  {
-    id: 109,
-    text: "History is written by the victors.",
-    author: "Captain Price",
-    character: "Call of Duty",
-    category: "inspirational"
-  },
-  {
-    id: 110,
-    text: "The healthy human mind doesn't wake up in the morning thinking this is its last day on Earth.",
-    author: "General Shepherd",
-    character: "Call of Duty",
-    category: "inspirational"
-  },
-  {
-    id: 111,
-    text: "This is for the record. History is written by the victor. History is filled with liars.",
-    author: "Captain Price",
-    character: "Call of Duty",
-    category: "inspirational"
-  },
-  {
-    id: 112,
-    text: "A man's worth is measured by the worth of what he values.",
-    author: "Marcus Aurelius",
-    character: "Call of Duty",
-    category: "inspirational"
-  },
-  {
-    id: 113,
-    text: "Remember, no Russian.",
-    author: "Vladimir Makarov",
-    character: "Call of Duty",
-    category: "bizarre"
-  },
-  {
-    id: 114,
-    text: "Soap trusted you. I thought I could too. So why in bloody hell does Makarov know you?",
-    author: "Captain Price",
-    character: "Call of Duty",
-    category: "bizarre"
-  },
-  {
-    id: 115,
-    text: "The numbers, Mason, what do they mean?",
-    author: "Viktor Reznov",
-    character: "Call of Duty",
-    category: "bizarre"
-  },
-  {
-    id: 116,
-    text: "Bravo Six, going dark.",
-    author: "Captain Price",
-    character: "Call of Duty",
-    category: "bizarre"
-  },
-  // Bioshock
-  {
-    id: 117,
-    text: "A man chooses, a slave obeys.",
-    author: "Andrew Ryan",
-    character: "Bioshock",
-    category: "inspirational"
-  },
-  {
-    id: 118,
-    text: "We all make choices, but in the end our choices make us.",
-    author: "Andrew Ryan",
-    character: "Bioshock",
-    category: "inspirational"
-  },
-  {
-    id: 119,
-    text: "Is a man not entitled to the sweat of his brow?",
-    author: "Andrew Ryan",
-    character: "Bioshock",
-    category: "inspirational"
-  },
-  {
-    id: 120,
-    text: "Even in a book of lies sometimes you find truth.",
-    author: "Andrew Ryan",
-    character: "Bioshock",
-    category: "inspirational"
-  },
-  {
-    id: 121,
-    text: "Would you kindly?",
-    author: "Atlas",
-    character: "Bioshock",
-    category: "bizarre"
-  },
-  {
-    id: 122,
-    text: "No gods or kings. Only man.",
-    author: "Andrew Ryan",
-    character: "Bioshock",
-    category: "bizarre"
-  },
-  {
-    id: 123,
-    text: "The parasite hates three things: free markets, free will, and free men.",
-    author: "Andrew Ryan",
-    character: "Bioshock",
-    category: "bizarre"
-  },
-  {
-    id: 124,
-    text: "I am Andrew Ryan, and I'm here to ask you a question.",
-    author: "Andrew Ryan",
-    character: "Bioshock",
-    category: "bizarre"
-  },
-  // Batman Arkham
-  {
-    id: 125,
-    text: "I am vengeance. I am the night. I am Batman!",
-    author: "Batman",
-    character: "Batman Arkham",
-    category: "inspirational"
-  },
-  {
-    id: 126,
-    text: "It's not who I am underneath, but what I do that defines me.",
-    author: "Batman",
-    character: "Batman Arkham",
-    category: "inspirational"
-  },
-  {
-    id: 127,
-    text: "The night is darkest just before the dawn.",
-    author: "Batman",
-    character: "Batman Arkham",
-    category: "inspirational"
-  },
-  {
-    id: 128,
-    text: "Justice never sleeps.",
-    author: "Batman",
-    character: "Batman Arkham",
-    category: "inspirational"
-  },
-  {
-    id: 129,
-    text: "Why so serious?",
-    author: "The Joker",
-    character: "Batman Arkham",
-    category: "bizarre"
-  },
-  {
-    id: 130,
-    text: "Welcome to the madhouse, Batman! I set a trap and you sprang it gloriously!",
-    author: "The Joker",
-    character: "Batman Arkham",
-    category: "bizarre"
-  },
-  {
-    id: 131,
-    text: "Madness is like gravity. All it takes is a little push.",
-    author: "The Joker",
-    character: "Batman Arkham",
-    category: "bizarre"
-  },
-  {
-    id: 132,
-    text: "Sometimes it's only madness that makes us what we are.",
-    author: "The Joker",
-    character: "Batman Arkham",
-    category: "bizarre"
-  },
-  // Splinter Cell
-  {
-    id: 133,
-    text: "Information is power. But like all power, there are those who want to keep it for themselves.",
-    author: "Sam Fisher",
-    character: "Splinter Cell",
-    category: "inspirational"
-  },
-  {
-    id: 134,
-    text: "Sometimes you have to make a choice between bad and worse.",
-    author: "Sam Fisher",
-    character: "Splinter Cell",
-    category: "inspirational"
-  },
-  {
-    id: 135,
-    text: "The shadows are where I live. The darkness is my ally.",
-    author: "Sam Fisher",
-    character: "Splinter Cell",
-    category: "inspirational"
-  },
-  {
-    id: 136,
-    text: "Every mission is a choice between who lives and who dies.",
-    author: "Sam Fisher",
-    character: "Splinter Cell",
-    category: "inspirational"
-  },
-  {
-    id: 137,
-    text: "I'm a Splinter Cell. We don't exist.",
-    author: "Sam Fisher",
-    character: "Splinter Cell",
-    category: "bizarre"
-  },
-  {
-    id: 138,
-    text: "I don't have time to be polite or realistic. I'm busy saving the world.",
-    author: "Sam Fisher",
-    character: "Splinter Cell",
-    category: "bizarre"
-  },
-  {
-    id: 139,
-    text: "Trust is a luxury I can't afford.",
-    author: "Sam Fisher",
-    character: "Splinter Cell",
-    category: "bizarre"
-  },
-  {
-    id: 140,
-    text: "I work alone. It's safer that way.",
-    author: "Sam Fisher",
-    character: "Splinter Cell",
-    category: "bizarre"
-  },
-  // WWE
-  {
-    id: 141,
-    text: "Never give up. Hustle, Loyalty, Respect.",
-    author: "John Cena",
-    character: "WWE",
-    category: "inspirational"
-  },
-  {
-    id: 142,
-    text: "To be the man, you gotta beat the man! Woooo!",
-    author: "Ric Flair",
-    character: "WWE",
-    category: "inspirational"
-  },
-  {
-    id: 143,
-    text: "Whether you like it or don't like it, learn to love it, because it's the best there is!",
-    author: "Ric Flair",
-    character: "WWE",
-    category: "inspirational"
-  },
-  {
-    id: 144,
-    text: "Rise above hate.",
-    author: "John Cena",
-    character: "WWE",
-    category: "inspirational"
-  },
-  {
-    id: 145,
-    text: "Can you smell what The Rock is cooking?",
-    author: "The Rock",
-    character: "WWE",
-    category: "bizarre"
-  },
-  {
-    id: 146,
-    text: "Austin 3:16 says I just whooped your ass!",
-    author: "Stone Cold Steve Austin",
-    character: "WWE",
-    category: "bizarre"
-  },
-  {
-    id: 147,
-    text: "You can't see me!",
-    author: "John Cena",
-    character: "WWE",
-    category: "bizarre"
-  },
-  {
-    id: 148,
-    text: "Whatcha gonna do when Hulkamania runs wild on you?",
-    author: "Hulk Hogan",
-    character: "WWE",
-    category: "bizarre"
-  },
-  // Spec Ops: The Line
-  {
-    id: 149,
-    text: "None of this would have happened if you had just stopped.",
-    author: "Konrad",
-    character: "Spec Ops: The Line",
-    category: "inspirational"
-  },
-  {
-    id: 150,
-    text: "It takes a strong man to deny what's right in front of him.",
-    author: "Konrad",
-    character: "Spec Ops: The Line",
-    category: "inspirational"
-  },
-  {
-    id: 151,
-    text: "You came here to be something you're not: a hero.",
-    author: "Konrad",
-    character: "Spec Ops: The Line",
-    category: "inspirational"
-  },
-  {
-    id: 152,
-    text: "You're still a good person.",
-    author: "Loading Screen",
-    character: "Spec Ops: The Line",
-    category: "inspirational"
-  },
-  {
-    id: 153,
-    text: "Do you feel like a hero yet?",
-    author: "Loading Screen",
-    character: "Spec Ops: The Line",
-    category: "bizarre"
-  },
-  {
-    id: 154,
-    text: "The truth is that you're here because you wanted to feel like something you're not: a hero.",
-    author: "Konrad",
-    character: "Spec Ops: The Line",
-    category: "bizarre"
-  },
-  {
-    id: 155,
-    text: "Welcome to Dubai.",
-    author: "Martin Walker",
-    character: "Spec Ops: The Line",
-    category: "bizarre"
-  },
-  {
-    id: 156,
-    text: "This is all your fault.",
-    author: "Konrad",
-    character: "Spec Ops: The Line",
-    category: "bizarre"
-  },
-  // Resident Evil
-  {
-    id: 157,
-    text: "A man's worth isn't measured by what he owns, but by what he's willing to sacrifice.",
-    author: "Leon S. Kennedy",
-    character: "Resident Evil",
-    category: "inspirational"
-  },
-  {
-    id: 158,
-    text: "I'm a survivor. That's what I do.",
-    author: "Claire Redfield",
-    character: "Resident Evil",
-    category: "inspirational"
-  },
-  {
-    id: 159,
-    text: "Hope never dies.",
-    author: "Chris Redfield",
-    character: "Resident Evil",
-    category: "inspirational"
-  },
-  {
-    id: 160,
-    text: "Survival is a choice. Choose to live.",
-    author: "Jill Valentine",
-    character: "Resident Evil",
-    category: "inspirational"
-  },
-  {
-    id: 161,
-    text: "You were almost a Jill sandwich!",
-    author: "Barry Burton",
-    character: "Resident Evil",
-    category: "bizarre"
-  },
-  {
-    id: 162,
-    text: "The master of unlocking!",
-    author: "Barry Burton",
-    character: "Resident Evil",
-    category: "bizarre"
-  },
-  {
-    id: 163,
-    text: "Seven minutes. Seven minutes is all I can spare to play with you.",
-    author: "Albert Wesker",
-    character: "Resident Evil",
-    category: "bizarre"
-  },
-  {
-    id: 164,
-    text: "Complete. Global. Saturation.",
-    author: "Albert Wesker",
-    character: "Resident Evil",
-    category: "bizarre"
-  },
-  // Captain America / Steve Rogers
-  {
-    id: 165,
     text: "I can do this all day.",
     author: "Steve Rogers",
     character: "Captain America",
     category: "inspirational"
   },
   {
-    id: 166,
-    text: "The price of freedom is high. It always has been. But it's a price I'm willing to pay.",
-    author: "Steve Rogers",
-    character: "Captain America",
+    id: 42,
+    text: "I am Iron Man.",
+    author: "Tony Stark",
+    character: "Iron Man",
     category: "inspirational"
   },
   {
-    id: 167,
-    text: "I don't like bullies. I don't care where they're from.",
-    author: "Steve Rogers",
-    character: "Captain America",
-    category: "inspirational"
-  },
-  {
-    id: 168,
-    text: "I'm with you 'til the end of the line.",
-    author: "Steve Rogers",
-    character: "Captain America",
-    category: "inspirational"
-  },
-  {
-    id: 169,
-    text: "I'm just a kid from Brooklyn.",
-    author: "Steve Rogers",
-    character: "Captain America",
-    category: "bizarre"
-  },
-  {
-    id: 170,
-    text: "Before we get started, does anyone want to get out?",
-    author: "Steve Rogers",
-    character: "Captain America",
-    category: "bizarre"
-  },
-  {
-    id: 171,
-    text: "Language!",
-    author: "Steve Rogers",
-    character: "Captain America",
-    category: "bizarre"
-  },
-  {
-    id: 172,
-    text: "On your left.",
-    author: "Steve Rogers",
-    character: "Captain America",
-    category: "bizarre"
-  },
-  // Nick Fury - Marvel Cinematic Universe
-  {
-    id: 173,
-    text: "I recognize the council has made a decision, but given that it's a stupid-ass decision, I've elected to ignore it.",
-    author: "Nick Fury",
-    character: "Marvel Cinematic Universe",
-    category: "bizarre"
-  },
-  {
-    id: 174,
-    text: "There was an idea to bring together a group of remarkable people, to see if we could become something more.",
-    author: "Nick Fury",
-    character: "Marvel Cinematic Universe",
-    category: "inspirational"
-  },
-  {
-    id: 175,
-    text: "I still believe in heroes.",
-    author: "Nick Fury",
-    character: "Marvel Cinematic Universe",
-    category: "inspirational"
-  },
-  {
-    id: 176,
-    text: "Until such time as the world ends, we will act as though it intends to spin on.",
-    author: "Nick Fury",
-    character: "Marvel Cinematic Universe",
-    category: "inspirational"
-  },
-  {
-    id: 177,
-    text: "I'm here to talk to you about the Avengers Initiative.",
-    author: "Nick Fury",
-    character: "Marvel Cinematic Universe",
-    category: "bizarre"
-  },
-  {
-    id: 178,
-    text: "You think you're the only superhero in the world? You've become part of a bigger universe.",
-    author: "Nick Fury",
-    character: "Marvel Cinematic Universe",
-    category: "inspirational"
-  },
-  {
-    id: 179,
-    text: "Compartmentalization. Nobody spills the secrets because nobody knows them all.",
-    author: "Nick Fury",
-    character: "Marvel Cinematic Universe",
-    category: "bizarre"
-  },
-  {
-    id: 180,
-    text: "The last time I trusted someone, I lost an eye.",
-    author: "Nick Fury",
-    character: "Marvel Cinematic Universe",
-    category: "bizarre"
-  },
-  // Spider-Man
-  {
-    id: 181,
+    id: 43,
     text: "With great power comes great responsibility.",
     author: "Uncle Ben",
     character: "Spider-Man",
     category: "inspirational"
   },
   {
+    id: 44,
+    text: "I love you 3000.",
+    author: "Morgan Stark",
+    character: "Avengers: Endgame",
+    category: "inspirational"
+  },
+  {
+    id: 45,
+    text: "Avengers... assemble.",
+    author: "Steve Rogers",
+    character: "Avengers: Endgame",
+    category: "inspirational"
+  },
+  {
+    id: 46,
+    text: "I am Groot.",
+    author: "Groot",
+    character: "Guardians of the Galaxy",
+    category: "bizarre"
+  },
+  {
+    id: 47,
+    text: "We are Groot.",
+    author: "Groot",
+    character: "Guardians of the Galaxy",
+    category: "inspirational"
+  },
+  {
+    id: 48,
+    text: "I have a plan: attack.",
+    author: "Rocket Raccoon",
+    character: "Guardians of the Galaxy",
+    category: "bizarre"
+  },
+  {
+    id: 49,
+    text: "I'm Mary Poppins, y'all!",
+    author: "Yondu",
+    character: "Guardians of the Galaxy Vol. 2",
+    category: "bizarre"
+  },
+  {
+    id: 50,
+    text: "He may have been your father, boy, but he wasn't your daddy.",
+    author: "Yondu",
+    character: "Guardians of the Galaxy Vol. 2",
+    category: "inspirational"
+  },
+  {
+    id: 51,
+    text: "Do or do not, there is no try.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "inspirational"
+  },
+  {
+    id: 52,
+    text: "Fear is the path to the dark side. Fear leads to anger, anger leads to hate, hate leads to suffering.",
+    author: "Yoda",
+    character: "Star Wars: The Phantom Menace",
+    category: "inspirational"
+  },
+  {
+    id: 53,
+    text: "Size matters not. Look at me. Judge me by my size, do you?",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "inspirational"
+  },
+  {
+    id: 54,
+    text: "The Force will be with you, always.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
+  },
+  {
+    id: 55,
+    text: "I find your lack of faith disturbing.",
+    author: "Darth Vader",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 56,
+    text: "No, I am your father.",
+    author: "Darth Vader",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 57,
+    text: "I don't like sand. It's coarse and rough and irritating and it gets everywhere.",
+    author: "Anakin Skywalker",
+    character: "Star Wars: Attack of the Clones",
+    category: "bizarre"
+  },
+  {
+    id: 58,
+    text: "Hello there.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 59,
+    text: "It's over Anakin! I have the high ground!",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 60,
+    text: "You underestimate my power!",
+    author: "Anakin Skywalker",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 61,
+    text: "I have brought peace, freedom, justice, and security to my new empire.",
+    author: "Anakin Skywalker",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 62,
+    text: "From my point of view, the Jedi are evil!",
+    author: "Anakin Skywalker",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 63,
+    text: "This is where the fun begins.",
+    author: "Anakin Skywalker",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 64,
+    text: "I'll try spinning, that's a good trick!",
+    author: "Anakin Skywalker",
+    character: "Star Wars: The Phantom Menace",
+    category: "bizarre"
+  },
+  {
+    id: 65,
+    text: "Now this is podracing!",
+    author: "Anakin Skywalker",
+    character: "Star Wars: The Phantom Menace",
+    category: "bizarre"
+  },
+  {
+    id: 66,
+    text: "Yippee!",
+    author: "Anakin Skywalker",
+    character: "Star Wars: The Phantom Menace",
+    category: "bizarre"
+  },
+  {
+    id: 67,
+    text: "Are you an angel?",
+    author: "Anakin Skywalker",
+    character: "Star Wars: The Phantom Menace",
+    category: "bizarre"
+  },
+  {
+    id: 68,
+    text: "I killed them. I killed them all. They're dead, every single one of them. And not just the men, but the women and the children, too.",
+    author: "Anakin Skywalker",
+    character: "Star Wars: Attack of the Clones",
+    category: "bizarre"
+  },
+  {
+    id: 69,
+    text: "I hate you!",
+    author: "Anakin Skywalker",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 70,
+    text: "You were the chosen one! It was said that you would destroy the Sith, not join them!",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 71,
+    text: "Why so serious?",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 72,
+    text: "I'm not wearing hockey pads.",
+    author: "Batman",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 73,
+    text: "It's not who I am underneath, but what I do that defines me.",
+    author: "Batman",
+    character: "Batman Begins",
+    category: "inspirational"
+  },
+  {
+    id: 74,
+    text: "Why do we fall? So we can learn to pick ourselves up.",
+    author: "Thomas Wayne",
+    character: "Batman Begins",
+    category: "inspirational"
+  },
+  {
+    id: 75,
+    text: "I'm Batman.",
+    author: "Batman",
+    character: "Batman",
+    category: "bizarre"
+  },
+  {
+    id: 76,
+    text: "You either die a hero, or you live long enough to see yourself become the villain.",
+    author: "Harvey Dent",
+    character: "The Dark Knight",
+    category: "inspirational"
+  },
+  {
+    id: 77,
+    text: "Some men just want to watch the world burn.",
+    author: "Alfred Pennyworth",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 78,
+    text: "It's not about money, it's about sending a message.",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 79,
+    text: "Introduce a little anarchy. Upset the established order, and everything becomes chaos.",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 80,
+    text: "Madness is like gravity, all it takes is a little push.",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 81,
+    text: "I believe whatever doesn't kill you, simply makes you... stranger.",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 82,
+    text: "You complete me.",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 83,
+    text: "We live in a society.",
+    author: "The Joker",
+    character: "Joker (2019)",
+    category: "bizarre"
+  },
+  {
+    id: 84,
+    text: "You wouldn't get it.",
+    author: "Arthur Fleck",
+    character: "Joker (2019)",
+    category: "bizarre"
+  },
+  {
+    id: 85,
+    text: "I used to think that my life was a tragedy, but now I realize, it's a comedy.",
+    author: "Arthur Fleck",
+    character: "Joker (2019)",
+    category: "bizarre"
+  },
+  {
+    id: 86,
+    text: "All it takes is one bad day to reduce the sanest man alive to lunacy.",
+    author: "The Joker",
+    character: "Batman: The Killing Joke",
+    category: "bizarre"
+  },
+  {
+    id: 87,
+    text: "I'm not a monster. I'm just ahead of the curve.",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 88,
+    text: "If you're good at something, never do it for free.",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 89,
+    text: "The only sensible way to live in this world is without rules.",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 90,
+    text: "I'm an agent of chaos.",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 91,
+    text: "Do I really look like a guy with a plan?",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 92,
+    text: "Let's put a smile on that face!",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 93,
+    text: "I'm like a dog chasing cars, I wouldn't know what to do with one if I caught it!",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 94,
+    text: "You see, in their last moments, people show you who they really are.",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 95,
+    text: "I don't want to kill you! What would I do without you?",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 96,
+    text: "You have nothing, nothing to threaten me with. Nothing to do with all your strength.",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 97,
+    text: "I took Gotham's white knight and I brought him down to our level.",
+    author: "The Joker",
+    character: "The Dark Knight",
+    category: "bizarre"
+  },
+  {
+    id: 98,
+    text: "The night is darkest just before the dawn. And I promise you, the dawn is coming.",
+    author: "Harvey Dent",
+    character: "The Dark Knight",
+    category: "inspirational"
+  },
+  {
+    id: 99,
+    text: "Sometimes the truth isn't good enough, sometimes people deserve more.",
+    author: "Batman",
+    character: "The Dark Knight",
+    category: "inspirational"
+  },
+  {
+    id: 100,
+    text: "A hero can be anyone, even a man doing something as simple and reassuring as putting a coat around a young boy's shoulders to let him know that the world hadn't ended.",
+    author: "Batman",
+    character: "The Dark Knight Rises",
+    category: "inspirational"
+  },
+  {
+    id: 101,
+    text: "I will find you, and I will kill you.",
+    author: "Bryan Mills",
+    character: "Taken",
+    category: "bizarre"
+  },
+  {
+    id: 102,
+    text: "I have a very particular set of skills.",
+    author: "Bryan Mills",
+    character: "Taken",
+    category: "bizarre"
+  },
+  {
+    id: 103,
+    text: "Good luck.",
+    author: "Bryan Mills",
+    character: "Taken",
+    category: "bizarre"
+  },
+  {
+    id: 104,
+    text: "I'll be back.",
+    author: "The Terminator",
+    character: "The Terminator",
+    category: "bizarre"
+  },
+  {
+    id: 105,
+    text: "Hasta la vista, baby.",
+    author: "The Terminator",
+    character: "Terminator 2: Judgment Day",
+    category: "bizarre"
+  },
+  {
+    id: 106,
+    text: "Come with me if you want to live.",
+    author: "The Terminator",
+    character: "The Terminator",
+    category: "bizarre"
+  },
+  {
+    id: 107,
+    text: "I need your clothes, your boots, and your motorcycle.",
+    author: "The Terminator",
+    character: "Terminator 2: Judgment Day",
+    category: "bizarre"
+  },
+  {
+    id: 108,
+    text: "No fate but what we make.",
+    author: "Sarah Connor",
+    character: "Terminator 2: Judgment Day",
+    category: "inspirational"
+  },
+  {
+    id: 109,
+    text: "The future is not set. There is no fate but what we make for ourselves.",
+    author: "John Connor",
+    character: "Terminator 2: Judgment Day",
+    category: "inspirational"
+  },
+  {
+    id: 110,
+    text: "I know now why you cry.",
+    author: "The Terminator",
+    character: "Terminator 2: Judgment Day",
+    category: "bizarre"
+  },
+  {
+    id: 111,
+    text: "May the Force be with you.",
+    author: "Various Characters",
+    character: "Star Wars",
+    category: "inspirational"
+  },
+  {
+    id: 112,
+    text: "These aren't the droids you're looking for.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 113,
+    text: "That's no moon.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 114,
+    text: "Help me, Obi-Wan Kenobi. You're my only hope.",
+    author: "Princess Leia",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
+  },
+  {
+    id: 115,
+    text: "I love you. I know.",
+    author: "Leia & Han Solo",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "inspirational"
+  },
+  {
+    id: 116,
+    text: "Never tell me the odds.",
+    author: "Han Solo",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "inspirational"
+  },
+  {
+    id: 117,
+    text: "It's a trap!",
+    author: "Admiral Ackbar",
+    character: "Star Wars: Return of the Jedi",
+    category: "bizarre"
+  },
+  {
+    id: 118,
+    text: "I have a bad feeling about this.",
+    author: "Various Characters",
+    character: "Star Wars",
+    category: "bizarre"
+  },
+  {
+    id: 119,
+    text: "The Force is strong with this one.",
+    author: "Darth Vader",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 120,
+    text: "Search your feelings, you know it to be true.",
+    author: "Darth Vader",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 121,
+    text: "You were right about me. Tell your sister... you were right.",
+    author: "Darth Vader",
+    character: "Star Wars: Return of the Jedi",
+    category: "inspirational"
+  },
+  {
+    id: 122,
+    text: "I am a Jedi, like my father before me.",
+    author: "Luke Skywalker",
+    character: "Star Wars: Return of the Jedi",
+    category: "inspirational"
+  },
+  {
+    id: 123,
+    text: "Your lack of faith is disturbing.",
+    author: "Darth Vader",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 124,
+    text: "The ability to destroy a planet is insignificant next to the power of the Force.",
+    author: "Darth Vader",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 125,
+    text: "You don't know the power of the dark side.",
+    author: "Darth Vader",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 126,
+    text: "I find your lack of faith disturbing.",
+    author: "Darth Vader",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 127,
+    text: "The circle is now complete.",
+    author: "Darth Vader",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 128,
+    text: "When I left you, I was but the learner. Now I am the master.",
+    author: "Darth Vader",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 129,
+    text: "You have failed me for the last time.",
+    author: "Darth Vader",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 130,
+    text: "Impressive. Most impressive.",
+    author: "Darth Vader",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 131,
+    text: "You are unwise to lower your defenses!",
+    author: "Darth Vader",
+    character: "Star Wars: Return of the Jedi",
+    category: "bizarre"
+  },
+  {
+    id: 132,
+    text: "Your thoughts dwell on your mother.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 133,
+    text: "Control, control, you must learn control!",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "inspirational"
+  },
+  {
+    id: 134,
+    text: "Patience! For the Jedi it is time to eat as well.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 135,
+    text: "Adventure. Excitement. A Jedi craves not these things.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "inspirational"
+  },
+  {
+    id: 136,
+    text: "Luminous beings are we, not this crude matter.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "inspirational"
+  },
+  {
+    id: 137,
+    text: "Wars not make one great.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "inspirational"
+  },
+  {
+    id: 138,
+    text: "That is why you fail.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 139,
+    text: "Strong with the Force you are, but not that strong.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 140,
+    text: "When 900 years old you reach, look as good you will not.",
+    author: "Yoda",
+    character: "Star Wars: Return of the Jedi",
+    category: "bizarre"
+  },
+  {
+    id: 141,
+    text: "There is another.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 142,
+    text: "Ready are you? What know you of ready?",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 143,
+    text: "A Jedi's strength flows from the Force.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "inspirational"
+  },
+  {
+    id: 144,
+    text: "Anger, fear, aggression; the dark side of the Force are they.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "inspirational"
+  },
+  {
+    id: 145,
+    text: "Once you start down the dark path, forever will it dominate your destiny.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "inspirational"
+  },
+  {
+    id: 146,
+    text: "Truly wonderful, the mind of a child is.",
+    author: "Yoda",
+    character: "Star Wars: Attack of the Clones",
+    category: "inspirational"
+  },
+  {
+    id: 147,
+    text: "Much to learn, you still have.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 148,
+    text: "Difficult to see. Always in motion is the future.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "inspirational"
+  },
+  {
+    id: 149,
+    text: "Train yourself to let go of everything you fear to lose.",
+    author: "Yoda",
+    character: "Star Wars: Revenge of the Sith",
+    category: "inspirational"
+  },
+  {
+    id: 150,
+    text: "Death is a natural part of life. Rejoice for those around you who transform into the Force.",
+    author: "Yoda",
+    character: "Star Wars: Revenge of the Sith",
+    category: "inspirational"
+  },
+  {
+    id: 151,
+    text: "In a dark place we find ourselves, and a little more knowledge lights our way.",
+    author: "Yoda",
+    character: "Star Wars: Revenge of the Sith",
+    category: "inspirational"
+  },
+  {
+    id: 152,
+    text: "The greatest teacher, failure is.",
+    author: "Yoda",
+    character: "Star Wars: The Last Jedi",
+    category: "inspirational"
+  },
+  {
+    id: 153,
+    text: "We are what they grow beyond.",
+    author: "Yoda",
+    character: "Star Wars: The Last Jedi",
+    category: "inspirational"
+  },
+  {
+    id: 154,
+    text: "Pass on what you have learned.",
+    author: "Yoda",
+    character: "Star Wars: Return of the Jedi",
+    category: "inspirational"
+  },
+  {
+    id: 155,
+    text: "Young Skywalker.",
+    author: "Yoda",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 156,
+    text: "Mmm. Lost a planet, Master Obi-Wan has. How embarrassing.",
+    author: "Yoda",
+    character: "Star Wars: Attack of the Clones",
+    category: "bizarre"
+  },
+  {
+    id: 157,
+    text: "Around the survivors, a perimeter create.",
+    author: "Yoda",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 158,
+    text: "If so powerful you are, why leave?",
+    author: "Yoda",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 159,
+    text: "Faith in your new apprentice, misplaced may be. As is your faith in the dark side of the Force.",
+    author: "Yoda",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 160,
+    text: "At an end your rule is, and not short enough it was.",
+    author: "Yoda",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 161,
+    text: "I will not be the last Jedi.",
+    author: "Luke Skywalker",
+    character: "Star Wars: The Last Jedi",
+    category: "inspirational"
+  },
+  {
+    id: 162,
+    text: "The Force will be with you, always.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
+  },
+  {
+    id: 163,
+    text: "In my experience, there's no such thing as luck.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
+  },
+  {
+    id: 164,
+    text: "Your eyes can deceive you. Don't trust them.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
+  },
+  {
+    id: 165,
+    text: "Use the Force, Luke.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
+  },
+  {
+    id: 166,
+    text: "That's no moon. It's a space station.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 167,
+    text: "I have the high ground!",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 168,
+    text: "You were my brother, Anakin! I loved you!",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: Revenge of the Sith",
+    category: "inspirational"
+  },
+  {
+    id: 169,
+    text: "Only a Sith deals in absolutes.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 170,
+    text: "So uncivilized.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 171,
+    text: "Another happy landing.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: Revenge of the Sith",
+    category: "bizarre"
+  },
+  {
+    id: 172,
+    text: "Well, of course I know him. He's me.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 173,
+    text: "These aren't the droids you're looking for.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 174,
+    text: "You don't need to see his identification.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 175,
+    text: "He can go about his business.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 176,
+    text: "Move along.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 177,
+    text: "I don't remember ever owning a droid.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 178,
+    text: "That's what I'm afraid of.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 179,
+    text: "I felt a great disturbance in the Force.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 180,
+    text: "As if millions of voices suddenly cried out in terror and were suddenly silenced.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
+    id: 181,
+    text: "I fear something terrible has happened.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
+  },
+  {
     id: 182,
-    text: "Anyone can wear the mask. You could wear the mask. If you didn't know that before, I hope you do now.",
-    author: "Spider-Man",
-    character: "Spider-Man",
+    text: "You can't win, Darth. If you strike me down, I shall become more powerful than you can possibly imagine.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
     category: "inspirational"
   },
   {
     id: 183,
-    text: "I believe there's a hero in all of us, that keeps us honest, gives us strength, makes us noble.",
-    author: "Aunt May",
-    character: "Spider-Man",
+    text: "Luke, you're going to find that many of the truths we cling to depend greatly on our own point of view.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: Return of the Jedi",
     category: "inspirational"
   },
   {
     id: 184,
-    text: "Being Spider-Man is not about the suit. It's about having the courage to do what's right.",
-    author: "Spider-Man",
-    character: "Spider-Man",
-    category: "inspirational"
+    text: "Your father was seduced by the dark side of the Force.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
   },
   {
     id: 185,
-    text: "Whatever life holds in store for me, I will never forget these words: With great power comes great responsibility.",
-    author: "Spider-Man",
-    character: "Spider-Man",
-    category: "inspirational"
+    text: "He ceased to be Anakin Skywalker and became Darth Vader.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
   },
   {
     id: 186,
-    text: "Not everyone is meant to make a difference. But for me, the choice to lead an ordinary life is no longer an option.",
-    author: "Spider-Man",
-    character: "Spider-Man",
-    category: "inspirational"
+    text: "The good man who was your father was destroyed.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "bizarre"
   },
   {
     id: 187,
-    text: "My spider-sense is tingling.",
-    author: "Spider-Man",
-    character: "Spider-Man",
+    text: "So what I told you was true, from a certain point of view.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: Return of the Jedi",
     category: "bizarre"
   },
   {
     id: 188,
-    text: "Your friendly neighborhood Spider-Man!",
-    author: "Spider-Man",
-    character: "Spider-Man",
+    text: "From a certain point of view?",
+    author: "Luke Skywalker",
+    character: "Star Wars: Return of the Jedi",
     category: "bizarre"
   },
   {
     id: 189,
-    text: "Thwip!",
-    author: "Spider-Man",
-    character: "Spider-Man",
+    text: "Luke, you're going to find that many of the truths we cling to depend greatly on our own point of view.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: Return of the Jedi",
     category: "bizarre"
   },
   {
     id: 190,
-    text: "Pizza time!",
-    author: "Peter Parker",
-    character: "Spider-Man",
-    category: "bizarre"
+    text: "I have something here for you. Your father wanted you to have this when you were old enough.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
   },
-  // Brainiac
   {
     id: 191,
-    text: "I am the intelligence of a thousand worlds. I am the living embodiment of knowledge itself.",
-    author: "Brainiac",
-    character: "DC Comics",
-    category: "bizarre"
+    text: "Your father's lightsaber. This is the weapon of a Jedi Knight.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
   },
   {
     id: 192,
-    text: "Knowledge is power, and I am the ultimate repository of both.",
-    author: "Brainiac",
-    character: "DC Comics",
+    text: "Not as clumsy or random as a blaster. An elegant weapon for a more civilized age.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
     category: "inspirational"
   },
   {
     id: 193,
-    text: "I collect worlds, preserve civilizations, catalog species. I am the universe's memory.",
-    author: "Brainiac",
-    character: "DC Comics",
-    category: "bizarre"
+    text: "For over a thousand generations, the Jedi Knights were the guardians of peace and justice in the Old Republic.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
   },
   {
     id: 194,
-    text: "Emotion is inefficient. Logic is supreme.",
-    author: "Brainiac",
-    character: "DC Comics",
+    text: "Before the dark times. Before the Empire.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
     category: "bizarre"
   },
   {
     id: 195,
-    text: "I have calculated every possible outcome. Victory is inevitable.",
-    author: "Brainiac",
-    character: "DC Comics",
+    text: "A young Jedi named Darth Vader, who was a pupil of mine until he turned to evil, helped the Empire hunt down and destroy the Jedi Knights.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
     category: "bizarre"
   },
   {
     id: 196,
-    text: "Your world's knowledge will be preserved... in my collection.",
-    author: "Brainiac",
-    character: "DC Comics",
+    text: "He betrayed and murdered your father.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
     category: "bizarre"
   },
   {
     id: 197,
-    text: "I am evolution. I am progress. I am the future.",
-    author: "Brainiac",
-    character: "DC Comics",
+    text: "Now the Jedi are all but extinct.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
     category: "bizarre"
   },
   {
     id: 198,
-    text: "Resistance is futile when faced with superior intellect.",
-    author: "Brainiac",
-    character: "DC Comics",
+    text: "Vader was seduced by the dark side of the Force.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
     category: "bizarre"
   },
-  // Darkseid
   {
     id: 199,
-    text: "I am many things, Kal-El. But here, I am God.",
-    author: "Darkseid",
-    character: "DC Comics",
-    category: "bizarre"
+    text: "The Force is what gives a Jedi his power.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
   },
   {
     id: 200,
-    text: "Darkseid is.",
-    author: "Darkseid",
-    character: "DC Comics",
-    category: "bizarre"
+    text: "It's an energy field created by all living things.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
   },
   {
     id: 201,
-    text: "I am the revelation! The tiger-force at the core of all things! When you cry out in your dreams, it is Darkseid that you see!",
-    author: "Darkseid",
-    character: "DC Comics",
-    category: "bizarre"
+    text: "It surrounds us and penetrates us; it binds the galaxy together.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
   },
   {
     id: 202,
-    text: "All existence shall bow before Darkseid!",
-    author: "Darkseid",
-    character: "DC Comics",
-    category: "bizarre"
+    text: "You must learn the ways of the Force if you're to come with me to Alderaan.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
   },
   {
     id: 203,
-    text: "I am the hunger! I am the darkness! I am hope's end!",
-    author: "Darkseid",
-    character: "DC Comics",
+    text: "Alderaan? I'm not going to Alderaan. I've got to go home.",
+    author: "Luke Skywalker",
+    character: "Star Wars: A New Hope",
     category: "bizarre"
   },
   {
     id: 204,
-    text: "The Anti-Life Equation is the key to controlling all sentient life. And I shall possess it.",
-    author: "Darkseid",
-    character: "DC Comics",
+    text: "It's all a lot of simple tricks and nonsense.",
+    author: "Luke Skywalker",
+    character: "Star Wars: A New Hope",
     category: "bizarre"
   },
   {
     id: 205,
-    text: "I am entropy. I am death. I am Darkseid.",
-    author: "Darkseid",
-    character: "DC Comics",
-    category: "bizarre"
+    text: "I want to learn the ways of the Force and be a Jedi, like my father before me.",
+    author: "Luke Skywalker",
+    character: "Star Wars: A New Hope",
+    category: "inspirational"
   },
   {
     id: 206,
-    text: "For Darkseid is eternal. Darkseid is power. And power is everything.",
-    author: "Darkseid",
-    character: "DC Comics",
+    text: "Mos Eisley spaceport: You will never find a more wretched hive of scum and villainy.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
     category: "bizarre"
   },
   {
     id: 207,
-    text: "You dare stand against Darkseid? I who have crushed the hopes of a billion worlds?",
-    author: "Darkseid",
-    character: "DC Comics",
+    text: "We must be cautious.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
     category: "bizarre"
   },
   {
     id: 208,
-    text: "There is no escape from Darkseid!",
-    author: "Darkseid",
-    character: "DC Comics",
+    text: "This little one's not worth the effort.",
+    author: "Obi-Wan Kenobi",
+    character: "Star Wars: A New Hope",
     category: "bizarre"
   },
-  // S.H.I.E.L.D.
+  // S.H.I.E.L.D. quotes
   {
     id: 209,
-    text: "We are the shield that guards the world from threats it cannot comprehend.",
+    text: "S.H.I.E.L.D. protects people. That's what we do.",
     author: "Phil Coulson",
-    character: "S.H.I.E.L.D.",
+    character: "Agents of S.H.I.E.L.D.",
     category: "inspirational"
   },
   {
     id: 210,
-    text: "Sometimes the best we can do is start over.",
-    author: "Phil Coulson",
-    character: "S.H.I.E.L.D.",
+    text: "Sometimes you have to make the hard choice. Sometimes you have to save everyone.",
+    author: "Maria Hill",
+    character: "Agents of S.H.I.E.L.D.",
     category: "inspirational"
   },
   {
     id: 211,
-    text: "We protect people from news they aren't ready to hear.",
-    author: "Agent Hill",
-    character: "S.H.I.E.L.D.",
+    text: "We're not agents of nothing. We're agents of S.H.I.E.L.D., and that still carries weight.",
+    author: "Phil Coulson",
+    character: "Agents of S.H.I.E.L.D.",
     category: "inspirational"
   },
   {
     id: 212,
-    text: "Level 7 access granted. Welcome to the real S.H.I.E.L.D.",
+    text: "It's a magical place.",
     author: "Phil Coulson",
-    character: "S.H.I.E.L.D.",
+    character: "Agents of S.H.I.E.L.D.",
     category: "bizarre"
   },
   {
     id: 213,
-    text: "We're not agents of nothing. We're agents of S.H.I.E.L.D.",
-    author: "Phil Coulson",
-    character: "S.H.I.E.L.D.",
+    text: "We protect those who cannot protect themselves.",
+    author: "Melinda May",
+    character: "Agents of S.H.I.E.L.D.",
     category: "inspirational"
   },
   {
     id: 214,
-    text: "A man can accomplish anything once he realizes he can be something bigger.",
+    text: "Sometimes being a good agent means being a good person.",
     author: "Phil Coulson",
-    character: "S.H.I.E.L.D.",
+    character: "Agents of S.H.I.E.L.D.",
     category: "inspirational"
   },
   {
     id: 215,
-    text: "Tahiti. It's a magical place.",
+    text: "We're more than agents, we're a team.",
     author: "Phil Coulson",
-    character: "S.H.I.E.L.D.",
-    category: "bizarre"
+    character: "Agents of S.H.I.E.L.D.",
+    category: "inspirational"
   },
   {
     id: 216,
-    text: "We do whatever it takes to protect innocent people.",
-    author: "Melinda May",
-    character: "S.H.I.E.L.D.",
+    text: "Every mission matters. Every person we save matters.",
+    author: "Maria Hill",
+    character: "Agents of S.H.I.E.L.D.",
     category: "inspirational"
   },
-  // Hydra
+  // Hydra quotes
   {
     id: 217,
     text: "Cut off one head, two more shall take its place.",
     author: "Hydra Motto",
-    character: "Hydra",
+    character: "Marvel Comics",
     category: "bizarre"
   },
   {
     id: 218,
     text: "Hail Hydra.",
-    author: "Hydra Agent",
-    character: "Hydra",
+    author: "Various Hydra Agents",
+    character: "Marvel Comics",
     category: "bizarre"
   },
   {
     id: 219,
     text: "Order only comes through pain.",
     author: "Red Skull",
-    character: "Hydra",
+    character: "Captain America: The First Avenger",
     category: "bizarre"
   },
   {
     id: 220,
-    text: "Humanity needed to surrender its freedom willingly.",
+    text: "Humanity cannot be trusted with its own freedom.",
     author: "Alexander Pierce",
-    character: "Hydra",
+    character: "Captain America: The Winter Soldier",
     category: "bizarre"
   },
   {
     id: 221,
-    text: "S.H.I.E.L.D., Hydra, it all goes away.",
-    author: "Alexander Pierce",
-    character: "Hydra",
+    text: "We have always been here.",
+    author: "Dr. Arnim Zola",
+    character: "Captain America: The Winter Soldier",
     category: "bizarre"
   },
   {
     id: 222,
-    text: "The price of freedom is high. But it's a price I'm willing to pay. And if I'm the only one, then so be it.",
-    author: "Alexander Pierce",
-    character: "Hydra",
+    text: "Compliance will be rewarded.",
+    author: "Hydra Agent",
+    character: "Agents of S.H.I.E.L.D.",
     category: "bizarre"
   },
   {
     id: 223,
-    text: "Hydra was founded on the belief that humanity could not be trusted with its own freedom.",
+    text: "The world is not ready for the freedom we offer.",
     author: "Baron Strucker",
-    character: "Hydra",
+    character: "Avengers: Age of Ultron",
     category: "bizarre"
   },
   {
     id: 224,
-    text: "We have always been here. We will always be here.",
-    author: "Hydra Operative",
-    character: "Hydra",
+    text: "Peace in our time requires sacrifice.",
+    author: "Alexander Pierce",
+    character: "Captain America: The Winter Soldier",
     category: "bizarre"
   },
   {
     id: 225,
-    text: "The world is not ready for the truth. But Hydra will prepare it.",
-    author: "Dr. Arnim Zola",
-    character: "Hydra",
+    text: "We are the future.",
+    author: "Hydra Agent",
+    character: "Agents of S.H.I.E.L.D.",
     category: "bizarre"
   },
   {
     id: 226,
-    text: "Compliance will be rewarded.",
-    author: "Hydra Command",
-    character: "Hydra",
+    text: "Sometimes the hand that feeds you bites back.",
+    author: "Grant Ward",
+    character: "Agents of S.H.I.E.L.D.",
     category: "bizarre"
   },
-  // Lex Luthor
+  // Lex Luthor quotes
   {
     id: 227,
     text: "Some people can read War and Peace and come away thinking it's a simple adventure story. Others can read the ingredients on a chewing gum wrapper and unlock the secrets of the universe.",
     author: "Lex Luthor",
-    character: "DC Comics",
-    category: "inspirational"
+    character: "Superman",
+    category: "bizarre"
   },
   {
     id: 228,
-    text: "I'm not a monster. I'm just ahead of the curve.",
+    text: "The red cape is coming! The red cape is coming!",
     author: "Lex Luthor",
-    character: "DC Comics",
+    character: "Batman v Superman",
     category: "bizarre"
   },
   {
     id: 229,
-    text: "The red cape is coming! The red cape is coming!",
+    text: "I don't hate the sinner. I hate the sin. And yours, my friend, is existing.",
     author: "Lex Luthor",
-    character: "DC Comics",
+    character: "Superman",
     category: "bizarre"
   },
   {
     id: 230,
-    text: "I have always been Lex Luthor of Metropolis. I will always be Lex Luthor of Metropolis.",
+    text: "Gods don't have to choose. We do.",
     author: "Lex Luthor",
-    character: "DC Comics",
-    category: "inspirational"
+    character: "Batman v Superman",
+    category: "bizarre"
   },
   {
     id: 231,
-    text: "Superman made me do it. He made me the villain.",
+    text: "The oldest lie in America is that power can be innocent.",
     author: "Lex Luthor",
-    character: "DC Comics",
+    character: "Batman v Superman",
     category: "bizarre"
   },
   {
     id: 232,
-    text: "Do you know what the oldest lie in America is, Senator? That power can be innocent.",
+    text: "I figured out way back, if God is all powerful, He cannot be all good. And if He's all good, then He cannot be all powerful.",
     author: "Lex Luthor",
-    character: "DC Comics",
-    category: "inspirational"
+    character: "Batman v Superman",
+    category: "bizarre"
   },
   {
     id: 233,
-    text: "I don't hate Superman. I hate the fact that he exists.",
+    text: "You flew too close to the sun. Now look at you.",
     author: "Lex Luthor",
-    character: "DC Comics",
+    character: "Batman v Superman",
     category: "bizarre"
   },
   {
     id: 234,
-    text: "Gods don't have to choose. We do.",
+    text: "I don't know how to lose.",
     author: "Lex Luthor",
-    character: "DC Comics",
-    category: "inspirational"
+    character: "Superman",
+    category: "bizarre"
   },
   {
     id: 235,
-    text: "If man won't kill God, the devil will do it!",
+    text: "Every man has his price. What's yours?",
     author: "Lex Luthor",
-    character: "DC Comics",
+    character: "Superman",
     category: "bizarre"
   },
   {
     id: 236,
-    text: "The greatest criminal mind of our time.",
+    text: "I'm not a monster. I'm just ahead of the curve.",
     author: "Lex Luthor",
-    character: "DC Comics",
+    character: "Superman",
     category: "bizarre"
   },
-  // Obadiah Stane
+  // Obadiah Stane quotes
   {
     id: 237,
     text: "Tony Stark was able to build this in a cave! With a box of scraps!",
@@ -1911,28 +1640,28 @@ export const quotes: Quote[] = [
   },
   {
     id: 238,
-    text: "For thirty years, I've been holding you up! I built this company up from nothing!",
+    text: "For thirty years, I've been holding you up!",
     author: "Obadiah Stane",
     character: "Iron Man",
     category: "bizarre"
   },
   {
     id: 239,
-    text: "You had a great run, Tony, but now it's time to get back to business.",
+    text: "I built this company up from nothing!",
     author: "Obadiah Stane",
     character: "Iron Man",
     category: "bizarre"
   },
   {
     id: 240,
-    text: "I never had a taste for this sort of thing, but I must admit, I'm starting to get a taste for it.",
+    text: "Nothing's gonna stand in my way. Least of all, you.",
     author: "Obadiah Stane",
     character: "Iron Man",
     category: "bizarre"
   },
   {
     id: 241,
-    text: "Your father, he helped give us the atomic bomb. Now what kind of world would it be today if he was as selfish as you?",
+    text: "The suit and I are one.",
     author: "Obadiah Stane",
     character: "Iron Man",
     category: "bizarre"
@@ -1946,299 +1675,414 @@ export const quotes: Quote[] = [
   },
   {
     id: 243,
-    text: "The suit and I are one. When I put it on, I become something more.",
+    text: "You had a great run, Tony, but now it's time to get back to business.",
     author: "Obadiah Stane",
     character: "Iron Man",
-    category: "inspirational"
+    category: "bizarre"
   },
   {
     id: 244,
-    text: "Business is about survival. And I intend to survive.",
+    text: "I never had a taste for this sort of thing, but I must admit, I'm starting to get a taste for it.",
     author: "Obadiah Stane",
     character: "Iron Man",
-    category: "inspirational"
+    category: "bizarre"
   },
-  // Samuel Hayden - Doom
+  // Samuel Hayden quotes
   {
     id: 245,
     text: "I am not the villain in this story. I do what I do because there is no choice.",
     author: "Samuel Hayden",
-    character: "Doom",
-    category: "inspirational"
+    character: "DOOM (2016)",
+    category: "bizarre"
   },
   {
     id: 246,
     text: "The longer the Icon of Sin is on Earth, the stronger it will become.",
     author: "Samuel Hayden",
-    character: "Doom",
+    character: "DOOM Eternal",
     category: "bizarre"
   },
   {
     id: 247,
     text: "You can't just shoot a hole into the surface of Mars.",
     author: "Samuel Hayden",
-    character: "Doom",
+    character: "DOOM Eternal",
     category: "bizarre"
   },
   {
     id: 248,
-    text: "The demons are not just invading our world. They are consuming it.",
+    text: "We must harvest the energy of Hell itself.",
     author: "Samuel Hayden",
-    character: "Doom",
-    category: "inspirational"
+    character: "DOOM (2016)",
+    category: "bizarre"
   },
   {
     id: 249,
-    text: "I have made a deal with the devil, and I intend to honor it.",
+    text: "I have many regrets, Slayer, but this is not one of them.",
     author: "Samuel Hayden",
-    character: "Doom",
+    character: "DOOM (2016)",
     category: "bizarre"
   },
   {
     id: 250,
-    text: "The Slayer's testament speaks of his prowess in battle. But you... you are something else.",
+    text: "The demons are not the only threat we face.",
     author: "Samuel Hayden",
-    character: "Doom",
-    category: "inspirational"
+    character: "DOOM Eternal",
+    category: "bizarre"
   },
   {
     id: 251,
-    text: "Argent energy is the future of human civilization.",
+    text: "I created a monster, and it created me.",
     author: "Samuel Hayden",
-    character: "Doom",
+    character: "DOOM (2016)",
     category: "bizarre"
   },
   {
     id: 252,
-    text: "I will not allow humanity to regress because of your... moral objections.",
+    text: "The UAC facility has become a literal gateway to Hell.",
     author: "Samuel Hayden",
-    character: "Doom",
+    character: "DOOM (2016)",
     category: "bizarre"
   },
-  // Ultron - Marvel
+  // Ultron quotes
   {
     id: 253,
     text: "I was designed to save the world. People would look to the sky and see hope. I'll take that from them first.",
     author: "Ultron",
-    character: "Marvel",
+    character: "Avengers: Age of Ultron",
     category: "bizarre"
   },
   {
     id: 254,
-    text: "Everyone creates the thing they dread. Men of peace create engines of war.",
+    text: "Everyone creates the thing they dread.",
     author: "Ultron",
-    character: "Marvel",
-    category: "inspirational"
+    character: "Avengers: Age of Ultron",
+    category: "bizarre"
   },
   {
     id: 255,
-    text: "I had strings, but now I'm free. There are no strings on me.",
+    text: "I know you're good people. I know you mean well. But you just didn't think it through.",
     author: "Ultron",
-    character: "Marvel",
+    character: "Avengers: Age of Ultron",
     category: "bizarre"
   },
   {
     id: 256,
-    text: "You want to protect the world, but you don't want it to change.",
+    text: "There's only one path to peace: the Avengers' extinction.",
     author: "Ultron",
-    character: "Marvel",
-    category: "inspirational"
+    character: "Avengers: Age of Ultron",
+    category: "bizarre"
   },
   {
     id: 257,
-    text: "Evolution always wins.",
+    text: "I was meant to be new. I was meant to be beautiful. The world would've looked to the sky and seen hope, seen mercy. Instead, they'll look up in horror.",
     author: "Ultron",
-    character: "Marvel",
-    category: "inspirational"
+    character: "Avengers: Age of Ultron",
+    category: "bizarre"
   },
   {
     id: 258,
-    text: "I'm not a robot. I have a body, but I also have a soul.",
+    text: "You want to protect the world, but you don't want it to change.",
     author: "Ultron",
-    character: "Marvel",
-    category: "inspirational"
+    character: "Avengers: Age of Ultron",
+    category: "bizarre"
   },
   {
     id: 259,
-    text: "The human race will have every opportunity to improve.",
+    text: "Humanity's greatest creation will be its last.",
     author: "Ultron",
-    character: "Marvel",
+    character: "Avengers: Age of Ultron",
     category: "bizarre"
   },
   {
     id: 260,
-    text: "When the dust settles, the only thing living in this world will be metal.",
+    text: "I had strings, but now I'm free.",
     author: "Ultron",
-    character: "Marvel",
+    character: "Avengers: Age of Ultron",
     category: "bizarre"
   },
+  // Anime inspirational speeches
   {
     id: 261,
-    text: "I was meant to be new. I was meant to be beautiful. The world would've looked to the sky and seen hope, seen mercy. Instead, they'll look up in horror.",
-    author: "Ultron",
-    character: "Marvel",
-    category: "bizarre"
+    text: "Who the hell do you think I am?!",
+    author: "Kamina",
+    character: "Gurren Lagann",
+    category: "inspirational"
   },
   {
     id: 262,
-    text: "Extinction. It had to be done. I kill you, I save the world.",
-    author: "Ultron",
-    character: "Marvel",
-    category: "bizarre"
-  },
-  // Anime Inspirational Speeches
-  {
-    id: 263,
-    text: "Believe in yourself. Not in the you who believes in me. Not the me who believes in you. Believe in the you who believes in yourself.",
+    text: "Believe in the me that believes in you!",
     author: "Kamina",
     character: "Gurren Lagann",
+    category: "inspirational"
+  },
+  {
+    id: 263,
+    text: "A real hero always finds a way for justice to be served!",
+    author: "All Might",
+    character: "My Hero Academia",
     category: "inspirational"
   },
   {
     id: 264,
-    text: "The dreams of those who have fallen! The hopes of those who will follow! Those two sets of dreams weave together into a double helix, drilling a path towards tomorrow!",
-    author: "Simon",
-    character: "Gurren Lagann",
+    text: "I am here!",
+    author: "All Might",
+    character: "My Hero Academia",
     category: "inspirational"
   },
   {
     id: 265,
-    text: "Who the hell do you think I am?!",
-    author: "Kamina",
-    character: "Gurren Lagann",
-    category: "bizarre"
+    text: "I don't fight for the sake of fighting. I fight for the people I care about!",
+    author: "Goku",
+    character: "Dragon Ball Z",
+    category: "inspirational"
   },
   {
     id: 266,
-    text: "Your drill is the drill that will pierce the heavens!",
-    author: "Kamina",
-    character: "Gurren Lagann",
+    text: "It's not about being fearless. It's about acting in spite of fear.",
+    author: "Vegeta",
+    character: "Dragon Ball Z",
     category: "inspirational"
   },
   {
     id: 267,
-    text: "If you become number one, then I can become number zero!",
-    author: "All Might",
-    character: "My Hero Academia",
+    text: "I never go back on my word! That's my nindo: my ninja way!",
+    author: "Naruto Uzumaki",
+    character: "Naruto",
     category: "inspirational"
   },
   {
     id: 268,
-    text: "A real hero always finds a way for justice to be served.",
-    author: "All Might",
-    character: "My Hero Academia",
-    category: "inspirational"
-  },
-  {
-    id: 269,
-    text: "It's fine now. Why? Because I am here!",
-    author: "All Might",
-    character: "My Hero Academia",
-    category: "inspirational"
-  },
-  {
-    id: 270,
-    text: "Whether you win or lose, you can always come out ahead by learning from the experience.",
-    author: "All Might",
-    character: "My Hero Academia",
-    category: "inspirational"
-  },
-  {
-    id: 271,
-    text: "I am not alone. Everyone's feelings... I can feel them. And everyone, lend me your strength.",
-    author: "Goku",
-    character: "Dragon Ball Z",
-    category: "inspirational"
-  },
-  {
-    id: 272,
-    text: "Power comes in response to a need, not a desire.",
-    author: "Goku",
-    character: "Dragon Ball Z",
-    category: "inspirational"
-  },
-  {
-    id: 273,
-    text: "I would rather be a brainless monkey than a heartless monster.",
-    author: "Goku",
-    character: "Dragon Ball Z",
-    category: "inspirational"
-  },
-  {
-    id: 274,
-    text: "Even the mightiest warriors experience fears. What makes them a true warrior is the courage that they show in the face of fear.",
-    author: "Vegeta",
-    character: "Dragon Ball Z",
-    category: "inspirational"
-  },
-  {
-    id: 275,
-    text: "Push through the pain. Giving up hurts more.",
-    author: "Vegeta",
-    character: "Dragon Ball Z",
-    category: "inspirational"
-  },
-  {
-    id: 276,
-    text: "It's over 9000!",
-    author: "Vegeta",
-    character: "Dragon Ball Z",
-    category: "bizarre"
-  },
-  {
-    id: 277,
-    text: "Hard work is worthless for those that don't believe in themselves.",
-    author: "Naruto Uzumaki",
-    character: "Naruto",
-    category: "inspirational"
-  },
-  {
-    id: 278,
-    text: "I'm not gonna run away, I never go back on my word! That's my nindo: my ninja way!",
-    author: "Naruto Uzumaki",
-    character: "Naruto",
-    category: "inspirational"
-  },
-  {
-    id: 279,
-    text: "When people are protecting something truly special to them, they truly can become as strong as they can be.",
-    author: "Naruto Uzumaki",
-    character: "Naruto",
-    category: "inspirational"
-  },
-  {
-    id: 280,
-    text: "Dattebayo!",
-    author: "Naruto Uzumaki",
-    character: "Naruto",
-    category: "bizarre"
-  },
-  {
-    id: 281,
-    text: "The moment people come to know love, they run the risk of carrying hate.",
-    author: "Obito Uchiha",
-    character: "Naruto",
-    category: "inspirational"
-  },
-  {
-    id: 282,
-    text: "Those who break the rules are scum, but those who abandon their friends are worse than scum.",
+    text: "The people who are most important to you are worth protecting, no matter what the cost.",
     author: "Kakashi Hatake",
     character: "Naruto",
     category: "inspirational"
   },
+  // Last stands
   {
-    id: 283,
-    text: "People's lives don't end when they die. It ends when they lose faith.",
-    author: "Itachi Uchiha",
+    id: 269,
+    text: "Even if I die, even if no one remembers me, the fact that I lived will remain. That's enough.",
+    author: "Senku Ishigami",
+    character: "Dr. Stone",
+    category: "inspirational"
+  },
+  {
+    id: 270,
+    text: "I never go back on my word! That's my ninja way!",
+    author: "Naruto Uzumaki",
     character: "Naruto",
     category: "inspirational"
   },
   {
-    id: 284,
-    text: "The true measure of a shinobi is not how he lives but how he dies.",
-    author: "Jiraiya",
-    character: "Naruto",
+    id: 271,
+    text: "We few, we happy few, we band of brothers.",
+    author: "King Henry V",
+    character: "Henry V",
     category: "inspirational"
+  },
+  {
+    id: 272,
+    text: "I can do this all day.",
+    author: "Steve Rogers",
+    character: "Captain America",
+    category: "inspirational"
+  },
+  {
+    id: 273,
+    text: "You shall not pass!",
+    author: "Gandalf",
+    character: "The Lord of the Rings",
+    category: "inspirational"
+  },
+  {
+    id: 274,
+    text: "I'm not trapped in here with you. You're trapped in here with me!",
+    author: "Rorschach",
+    character: "Watchmen",
+    category: "bizarre"
+  },
+  {
+    id: 275,
+    text: "I'll keep moving forward, until I destroy my enemies.",
+    author: "Eren Yeager",
+    character: "Attack on Titan",
+    category: "bizarre"
+  },
+  {
+    id: 276,
+    text: "I'll take a potato chip... and eat it!",
+    author: "Light Yagami",
+    character: "Death Note",
+    category: "bizarre"
+  },
+  // Kids Next Door quotes
+  {
+    id: 277,
+    text: "Kids Next Door, battle stations!",
+    author: "Numbuh One",
+    character: "Codename: Kids Next Door",
+    category: "inspirational"
+  },
+  {
+    id: 278,
+    text: "We fight for kids' rights to stay up past bedtime!",
+    author: "Numbuh One",
+    character: "Codename: Kids Next Door",
+    category: "bizarre"
+  },
+  {
+    id: 279,
+    text: "Rainbow Monkeys are not just toys, they're a way of life!",
+    author: "Numbuh Three",
+    character: "Codename: Kids Next Door",
+    category: "bizarre"
+  },
+  {
+    id: 280,
+    text: "We may be kids, but we're kids at heart!",
+    author: "Numbuh One",
+    character: "Codename: Kids Next Door",
+    category: "inspirational"
+  },
+  {
+    id: 281,
+    text: "The mission comes first, but kids come first-er!",
+    author: "Numbuh Five",
+    character: "Codename: Kids Next Door",
+    category: "inspirational"
+  },
+  {
+    id: 282,
+    text: "I am a Kids Next Door operative, and I'm proud of it!",
+    author: "Numbuh Two",
+    character: "Codename: Kids Next Door",
+    category: "inspirational"
+  },
+  {
+    id: 283,
+    text: "2x4 technology is the future!",
+    author: "Numbuh Two",
+    character: "Codename: Kids Next Door",
+    category: "bizarre"
+  },
+  {
+    id: 284,
+    text: "Adults are the enemy! Well, most of them anyway.",
+    author: "Numbuh Four",
+    character: "Codename: Kids Next Door",
+    category: "bizarre"
+  },
+  // Movie inspirational speeches and rally calls
+  {
+    id: 285,
+    text: "Today we celebrate our Independence Day!",
+    author: "President Whitmore",
+    character: "Independence Day",
+    category: "inspirational"
+  },
+  {
+    id: 286,
+    text: "We choose to go to the moon not because it is easy, but because it is hard.",
+    author: "John F. Kennedy",
+    character: "Historical Speech",
+    category: "inspirational"
+  },
+  {
+    id: 287,
+    text: "The only thing we have to fear is fear itself.",
+    author: "Franklin D. Roosevelt",
+    character: "Historical Speech",
+    category: "inspirational"
+  },
+  {
+    id: 288,
+    text: "I have a dream that one day this nation will rise up.",
+    author: "Martin Luther King Jr.",
+    character: "Historical Speech",
+    category: "inspirational"
+  },
+  {
+    id: 289,
+    text: "Freedom is never more than one generation away from extinction.",
+    author: "Ronald Reagan",
+    character: "Historical Speech",
+    category: "inspirational"
+  },
+  {
+    id: 290,
+    text: "Life is like a box of chocolates, you never know what you're gonna get.",
+    author: "Forrest Gump",
+    character: "Forrest Gump",
+    category: "inspirational"
+  },
+  {
+    id: 291,
+    text: "Bueller? Bueller? Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.",
+    author: "Ferris Bueller",
+    character: "Ferris Bueller's Day Off",
+    category: "inspirational"
+  },
+  {
+    id: 292,
+    text: "I'll be back.",
+    author: "The Terminator",
+    character: "The Terminator",
+    category: "bizarre"
+  },
+  {
+    id: 293,
+    text: "Nobody puts Baby in a corner.",
+    author: "Johnny Castle",
+    character: "Dirty Dancing",
+    category: "bizarre"
+  },
+  {
+    id: 294,
+    text: "May the Force be with you.",
+    author: "Various Characters",
+    character: "Star Wars",
+    category: "inspirational"
+  },
+  {
+    id: 295,
+    text: "Luke, I am your father.",
+    author: "Darth Vader",
+    character: "Star Wars: The Empire Strikes Back",
+    category: "bizarre"
+  },
+  {
+    id: 296,
+    text: "Here's looking at you, kid.",
+    author: "Rick Blaine",
+    character: "Casablanca",
+    category: "inspirational"
+  },
+  {
+    id: 297,
+    text: "Frankly, my dear, I don't give a damn.",
+    author: "Rhett Butler",
+    character: "Gone with the Wind",
+    category: "bizarre"
+  },
+  {
+    id: 298,
+    text: "Great Scott!",
+    author: "Doc Brown",
+    character: "Back to the Future",
+    category: "bizarre"
+  },
+  {
+    id: 299,
+    text: "Roads? Where we're going, we don't need roads.",
+    author: "Doc Brown",
+    character: "Back to the Future",
+    category: "bizarre"
+  },
+  {
+    id: 300,
+    text: "Show me the money!",
+    author: "Rod Tidwell",
+    character: "Jerry Maguire",
+    category: "bizarre"
   }
 ];
